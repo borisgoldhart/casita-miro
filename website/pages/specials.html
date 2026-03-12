@@ -9,6 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <style>
+        /* Reduce header and intro padding for cards to appear higher */
+        #site-header nav {
+            padding: 0.8rem var(--gutter) !important;
+        }
+
+        #site-header.scrolled nav {
+            padding-top: 0.6rem !important;
+            padding-bottom: 0.6rem !important;
+        }
+
+        .page-hero + .page-section {
+            padding-top: 2rem !important;
+            padding-bottom: 1.5rem !important;
+        }
+
         /* Specials Grid */
         .specials-grid {
             display: grid;
