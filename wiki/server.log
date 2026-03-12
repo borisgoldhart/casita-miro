@@ -67,3 +67,4 @@ Hit CTRL-C to stop the server
 [2026-03-12T02:55:50.249Z]  "GET /js/markdown-renderer.js" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
 [2026-03-12T02:55:50.263Z]  "GET /docs/email_marketing.md" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
 [2026-03-12T02:55:58.671Z]  "GET /docs/executive_summary.md" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+[2026-03-12T02:56:51.052Z]  "GET /docs/as_is_analysis.md" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"

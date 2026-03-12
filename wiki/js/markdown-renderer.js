@@ -67,6 +67,13 @@ const documents = [
         tags: ['Website', 'Structure', 'Navigation']
     },
     {
+        id: 'website_redesign_proposal',
+        title: 'Website Redesign Proposal',
+        filename: 'website_redesign_proposal.md',
+        description: 'Complete redesign proposal — reference websites, sitemap, design direction, and color palette.',
+        tags: ['Website', 'Design', 'Proposal']
+    },
+    {
         id: 'social_media_strategy',
         title: 'Social Media Strategy',
         filename: 'social_media_strategy.md',
