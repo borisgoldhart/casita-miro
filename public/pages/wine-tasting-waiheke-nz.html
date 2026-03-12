@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Tasting Waiheke Island NZ | Casita Miro — Aperitivo Hour Experience</title>
+    <meta name="description" content="Book an intimate wine tasting on Waiheke Island at Casita Miro. Three tiers from $60–$150pp. Estate wines, Spanish pintxos, vineyard views. Fridays & Saturdays.">
+    <meta name="keywords" content="wine tasting Waiheke Island, Waiheke wine experience, Casita Miro tasting, Waiheke vineyard tour, wine and pintxos, Waiheke Island NZ">
+    <link rel="canonical" href="https://casitamiro.co.nz/pages/wine-tasting-waiheke-nz.html">
+    <meta property="og:title" content="Wine Tasting on Waiheke Island — Casita Miro Aperitivo Hour">
+    <meta property="og:description" content="Intimate wine tasting with Spanish pintxos from $60pp. Three tiers: Primer Sorbo, Alma del Viñedo, Esencia Miro. Book your Waiheke wine experience.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        /* Pricing Tiers */
+        .pricing-tiers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        @media (max-width: 900px) {
+            .pricing-tiers { grid-template-columns: 1fr; max-width: 480px; }
+        }
+        .tier-card {
+            background: #fff;
+            border: 2px solid #eee;
+            border-radius: 8px;
+            padding: 2.5rem 2rem 2rem;
+            text-align: center;
+            position: relative;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+        .tier-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.10);
+        }
+        .tier-card.featured {
+            border-color: #D32F2F;
+            transform: scale(1.04);
+        }
+        .tier-card.featured:hover {
+            transform: scale(1.04) translateY(-4px);
+        }
+        .tier-badge {
+            display: inline-block;
+            background: #D32F2F;
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 0.35rem 1rem;
+            border-radius: 20px;
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .tier-name {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.5rem;
+            color: #222;
+            margin-bottom: 0.5rem;
+        }
+        .tier-price {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #D32F2F;
+            margin: 0.75rem 0 0.25rem;
+        }
+        .tier-price span {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #999;
+        }
+        .tier-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0 2rem;
+            text-align: left;
+        }
+        .tier-list li {
+            padding: 0.5rem 0;
+            color: #555;
+            font-size: 0.95rem;
+            border-bottom: 1px solid #f5f5f5;
+            padding-left: 1.6rem;
+            position: relative;
+        }
+        .tier-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #D32F2F;
+            font-weight: 700;
+        }
+        .tier-list li:last-child { border-bottom: none; }
+        .tier-cta {
+            display: inline-block;
+            background: #D32F2F;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .tier-cta:hover { background: #b71c1c; }
+        .tier-card:not(.featured) .tier-cta {
+            background: transparent;
+            color: #D32F2F;
+            border: 2px solid #D32F2F;
+        }
+        .tier-card:not(.featured) .tier-cta:hover {
+            background: #D32F2F;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="site-header">
+        <nav>
+            <a href="../index.html" class="nav-logo">
+                <img src="../images/logo-casita-miro.png" alt="Casita Miro" loading="eager">
+            </a>
+
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="wine.html">Miro Vineyard</a></li>
+                <li><a href="wine-tasting-waiheke-nz.html">Wine Tasting</a></li>
+                <li><a href="specials.html">Specials</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="contact.html" class="nav-cta">Reserve</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="page-hero" style="background-image: url('../images/wine-bottles.jpg');">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1>Wine Tasting on Waiheke Island</h1>
+            <p>An intimate Aperitivo Hour with estate wines and seasonal Spanish pintxos</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 2rem;">A Tasting Like No Other</h2>
+                <p style="max-width: 800px; margin: 0 auto 3rem; text-align: center; color: #666; font-size: 1.05rem; line-height: 1.8;">
+                    Aperitivo Hour is a cosy, playful wine tasting experience designed for wine lovers, curious travellers, and anyone seeking a memorable night on Waiheke Island. Join us for an intimate pre-dinner experience in our Glass House overlooking the vineyard, where rare wines meet seasonal Spanish pintxos.
+                </p>
+
+                <div class="split-layout">
+                    <div class="split-text">
+                        <h3 style="color: #D32F2F; margin-bottom: 1.5rem;">The Experience</h3>
+                        <p style="color: #666; margin-bottom: 1.5rem;">Your host guides you through three exclusive wines from our vineyard, each paired with a seasonal pintxo crafted fresh in our kitchen. This isn't just a tasting—it's a journey through flavours, stories, and the passion that defines Casita Miro.</p>
+                        <p style="color: #666; margin-bottom: 1.5rem;">We close the evening with a wander to the Mosaic Bar for a final toast and stunning sunset views before you continue to dinner.</p>
+                    </div>
+                    <div class="split-media">
+                        <img src="../images/wine-bottles.jpg" alt="Wine tasting experience at Casita Miro, Waiheke Island" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Tiers -->
+        <section class="page-section" style="background: #FAFAF8;">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 1rem;">Choose Your Experience</h2>
+                <p style="max-width: 700px; margin: 0 auto 3rem; text-align: center; color: #666; font-size: 1.05rem;">Three ways to enjoy Aperitivo Hour — from a classic tasting to a private vineyard experience.</p>
+
+                <div class="pricing-tiers">
+                    <!-- Primer Sorbo Tier -->
+                    <div class="tier-card">
+                        <div class="tier-name">Primer Sorbo</div>
+                        <div class="tier-price">$60 <span>/ person</span></div>
+                        <p style="font-style: italic; color: #999; font-size: 0.85rem; margin: -0.25rem 0 0.75rem;">"The First Sip"</p>
+                        <ul class="tier-list">
+                            <li>Three wines with paired pintxos</li>
+                            <li>Host guidance &amp; storytelling</li>
+                            <li>Access to Glass House</li>
+                        </ul>
+                        <a href="#booking" class="tier-cta">Book Now</a>
+                    </div>
+
+                    <!-- Alma del Viñedo Tier (Featured) -->
+                    <div class="tier-card featured">
+                        <span class="tier-badge">Most Popular</span>
+                        <div class="tier-name">Alma del Viñedo</div>
+                        <div class="tier-price">$95 <span>/ person</span></div>
+                        <p style="font-style: italic; color: #999; font-size: 0.85rem; margin: -0.25rem 0 0.75rem;">"Soul of the Vineyard"</p>
+                        <ul class="tier-list">
+                            <li>Everything in Primer Sorbo</li>
+                            <li>Premium wine selections</li>
+                            <li>Extended 2-hour experience</li>
+                            <li>Exclusive Mosaic Bar experience</li>
+                        </ul>
+                        <a href="#booking" class="tier-cta">Book Now</a>
+                    </div>
+
+                    <!-- Esencia Miro Tier -->
+                    <div class="tier-card">
+                        <div class="tier-name">Esencia Miro</div>
+                        <div class="tier-price">$150 <span>/ person</span></div>
+                        <p style="font-style: italic; color: #999; font-size: 0.85rem; margin: -0.25rem 0 0.75rem;">"The Essence of Miro"</p>
+                        <ul class="tier-list">
+                            <li>Everything in Alma del Viñedo</li>
+                            <li>Private group tasting (min 4 people)</li>
+                            <li>Custom menu options available</li>
+                            <li>Pre-dinner vineyard tour</li>
+                            <li>Sunset Mosaic Bar toast</li>
+                        </ul>
+                        <a href="#booking" class="tier-cta">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 3rem;">This Summer's Menu</h2>
+                <p style="max-width: 700px; margin: 0 auto 3rem; text-align: center; color: #666;">Seasonal ingredients, Spanish tradition, and our vineyard's finest wines. Each pairing is crafted to tell a story.</p>
+                
+                <div class="grid-3">
+                    <div class="wine-card">
+                        <h3 style="color: #D32F2F;">Flight One</h3>
+                        <p style="color: #666; margin: 1rem 0;"><strong>Waiheke Albariño</strong></p>
+                        <p style="color: #666; margin: 1rem 0;">Fresh, mineral, with stone fruit notes.</p>
+                        <div style="border-top: 1px solid #ddd; padding-top: 1rem; margin-top: 1rem;">
+                            <p style="color: #D32F2F; font-weight: 600; margin-bottom: 0.5rem;">Paired with</p>
+                            <p style="color: #666;"><strong>Pan con tomate & anchoa</strong><br>
+                            Toasted bread, tomato, Spanish anchovies</p>
+                        </div>
+                    </div>
+
+                    <div class="wine-card">
+                        <h3 style="color: #D32F2F;">Flight Two</h3>
+                        <p style="color: #666; margin: 1rem 0;"><strong>Bond Exceptional Harvest Bordeaux Blend</strong></p>
+                        <p style="color: #666; margin: 1rem 0;">Complex, full-bodied, from a single barrel of an exceptional vintage.</p>
+                        <div style="border-top: 1px solid #ddd; padding-top: 1rem; margin-top: 1rem;">
+                            <p style="color: #D32F2F; font-weight: 600; margin-bottom: 0.5rem;">Paired with</p>
+                            <p style="color: #666;"><strong>Manchego & membrillo</strong><br>
+                            Aged Spanish cheese, quince paste</p>
+                        </div>
+                    </div>
+
+                    <div class="wine-card">
+                        <h3 style="color: #D32F2F;">Flight Three</h3>
+                        <p style="color: #666; margin: 1rem 0;"><strong>House Vermouth</strong></p>
+                        <p style="color: #666; margin: 1rem 0;">Fragrant, herbal, a celebration of botanicals.</p>
+                        <div style="border-top: 1px solid #ddd; padding-top: 1rem; margin-top: 1rem;">
+                            <p style="color: #D32F2F; font-weight: 600; margin-bottom: 0.5rem;">Paired with</p>
+                            <p style="color: #666;"><strong>Brioche, green olive & fennel montadito</strong><br>
+                            Sweet brioche, green olives, fresh fennel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section" style="background: #FAFAF8;">
+            <div class="container">
+                <div style="max-width: 700px; margin: 0 auto;">
+                    <h2 style="text-align: center; margin-bottom: 2rem;">Aperitivo Hour Details</h2>
+                    
+                    <div style="background: #fff; padding: 2rem; border-radius: 4px; margin-bottom: 2rem; border: 1px solid #eee;">
+                        <p style="margin-bottom: 1rem;"><strong style="color: #D32F2F;">Prices:</strong> From $60 per person (see tiers above)</p>
+                        <p style="margin-bottom: 1rem;"><strong style="color: #D32F2F;">Availability:</strong> Fridays & Saturdays during summer season</p>
+                        <p style="margin-bottom: 1rem;"><strong style="color: #D32F2F;">Duration:</strong> 1.5 – 2 hours depending on your tier</p>
+                        <p style="margin-bottom: 0;"><strong style="color: #D32F2F;">Private Tastings:</strong> Available with our Esencia Miro tier (min 4 guests)</p>
+                    </div>
+
+                    <p style="color: #666; text-align: center; margin-bottom: 2rem;">Capacity is limited. Secure your spot before it fills.</p>
+
+                    <h3 id="booking" style="color: #D32F2F; margin-bottom: 1.5rem; text-align: center;">Ready to Book?</h3>
+                    <p style="text-align: center; color: #666; margin-bottom: 2rem;">Fill in your details and we'll confirm availability for your preferred date.</p>
+
+                    <form class="contact-form" id="tasting-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Which Experience?</option>
+                                <option value="primer-sorbo">Primer Sorbo — $60pp (The First Sip)</option>
+                                <option value="alma-del-vinedo">Alma del Viñedo — $95pp (Soul of the Vineyard)</option>
+                                <option value="esencia-miro">Esencia Miro — $150pp (The Essence of Miro)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Number of Guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="8">8+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" placeholder="Preferred Date (Friday or Saturday)" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Any dietary requirements or special requests?" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1.5rem;">Request Tasting</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section dark-section">
+            <div class="container text-center">
+                <h2 style="color: white; margin-bottom: 2rem;">Questions?</h2>
+                <p style="max-width: 700px; margin: 0 auto 2rem; color: #aaa; font-size: 1.05rem;">Contact us to learn more about Aperitivo Hour, book a group tasting, or arrange a private event.</p>
+                <p><strong style="color: white;">Phone:</strong> (09) 372 7854<br>
+                <strong style="color: white;">Email:</strong> cmenquiries@outlook.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div>
+                    <h4>Casita Miro</h4>
+                    <p>Award-winning Spanish restaurant & vineyard on Waiheke Island</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="wine.html">Vineyard</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <p>(09) 372 7854<br>
+                    cmenquiries@outlook.com<br>
+                    3 Brown Road, Onetangi<br>
+                    Waiheke Island 1081</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Casita Miro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
