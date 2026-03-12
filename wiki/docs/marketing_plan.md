@@ -412,7 +412,5 @@
 
 **Cat & Barnett:** Strategic oversight, content approval, storytelling, partner engagement
 
----
-
 
 

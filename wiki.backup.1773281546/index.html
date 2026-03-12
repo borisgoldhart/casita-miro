@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Casita Miro - Marketing POC</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="description" content="Casita Miro Marketing Proof of Concept - Spanish Restaurant & Vineyard, Waiheke Island">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <style>
+    :root {
+      --base-color: #D32F2F;
+      --text-color: #2c3e50;
+      --border-color: #eaecef;
+      --code-bg-color: #f5f5f5;
+    }
+    
+    /* Ensure sidebar displays on desktop */
+    @media (min-width: 1024px) {
+      .sidebar {
+        display: block !important;
+        left: 0 !important;
+        width: 300px !important;
+      }
+      
+      body {
+        margin-left: 0;
+      }
+      
+      .content {
+        margin-left: 300px;
+        width: auto;
+      }
+    }
+    
+    /* Fix coverpage button styling */
+    .cover-main a {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 4px;
+      background-color: #D32F2F;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .cover-main a:hover {
+      background-color: #B71C1C;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '<img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2240%22 font-weight=%22bold%22 text-anchor=%22middle%22 fill=%22%23D32F2F%22%3E🍷%3C/text%3E%3C/svg%3E" alt="Casita Miro" style="height: 40px; margin-right: 10px;"> Casita Miro',
+      repo: '',
+      loadSidebar: true,
+      loadNavbar: false,
+      maxLevel: 3,
+      subMaxLevel: 2,
+      coverpage: true,
+      notFoundPage: true,
+      logo: 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2250%22 text-anchor=%22middle%22%3E🍷%3C/text%3E%3C/svg%3E',
+      themeColor: '#D32F2F',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search...',
+        noData: 'No results found',
+        depth: 2,
+      },
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            return html;
+          });
+        }
+      ]
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+</body>
+</html>
