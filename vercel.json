@@ -2,5 +2,11 @@
   "buildCommand": "mkdir -p public && cp -r website/* public/ && mkdir -p public/marketing-wiki && cp -r marketing-wiki/* public/marketing-wiki/",
   "outputDirectory": "public",
   "cleanUrls": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/marketing-wiki",
+      "destination": "/marketing-wiki/"
+    }
+  ]
 }
