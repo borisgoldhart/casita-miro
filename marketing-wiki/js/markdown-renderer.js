@@ -198,9 +198,8 @@ async function loadDocument(doc) {
     window.location.hash = doc.id;
     
     try {
-        // Use absolute URL to avoid credential-in-URL fetch block (Chrome security restriction)
-        const baseUrl = window.location.origin + window.location.pathname;
-        const docUrl = new URL(`docs/${doc.filename}`, baseUrl).href;
+        // Use relative path from current location
+        const docUrl = `./docs/${doc.filename}`;
         const response = await fetch(docUrl);
         if (!response.ok) {
             throw new Error(`Failed to load document: ${response.status} ${response.statusText}`);
