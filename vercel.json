@@ -1,6 +1,6 @@
 {
-  "buildCommand": "echo 'No build needed for static site'",
-  "outputDirectory": "website",
+  "buildCommand": "mkdir -p public && cp -r website/* public/ && mkdir -p public/marketing-wiki && cp -r marketing-wiki/* public/marketing-wiki/",
+  "outputDirectory": "public",
   "cleanUrls": false,
   "trailingSlash": false
 }
