@@ -1,6 +1,6 @@
 # Casita Miro - As-Is Analysis
 **Date:** March 12, 2026  
-**Scope:** Digital presence, competitive positioning, market opportunity
+**Scope:** Business operations, competitive positioning, market opportunity
 
 ---
 
@@ -12,7 +12,7 @@ Casita Miro occupies a **unique and powerful position** in New Zealand's hospita
 - Elite TripAdvisor rankings (#1 in Onetangi, 4.7/5 across 1,758 reviews)
 - Premium location within a booming wine tourism destination
 
-**Current State:** Strong operational and reputation management, but digital presence is underdeveloped relative to their accolades and market opportunity. Their website and marketing don't fully capture their unique value proposition or leverage their award-winning status.
+**Current State:** Strong operational and reputation management, with award-winning status and elite reputation. Market opportunity exists in expanding reach and brand positioning.
 
 ---
 
@@ -24,67 +24,7 @@ Casita Miro occupies a **unique and powerful position** in New Zealand's hospita
 - **Competitive advantage:** Own vineyard, Spanish cuisine, Mediterranean experience
 - **Scale:** Small, intimate venue (appears to be <100 covers based on imagery)
 
-### 1.2 Current Digital Presence
 
-#### Website (casitamiro.co.nz)
-**Structure:** ~25-30 pages across multiple sections (restaurant, vineyard, shop, events)
-
-**Strengths:**
-- Domain owned (good SEO foundation)
-- Multiple revenue streams represented: dining, wine sales, events, weddings, groups
-- Online booking system functional
-- E-commerce shop with product filtering
-- Separate pages for key experiences: Dining, Vineyard, Weddings, Groups, Madame Rouge
-- Email signup for "Casita Amigo" membership
-- Direct link to TripAdvisor (leveraging their #1 ranking)
-- Social media links present (Facebook, Instagram)
-- Founder/family story present on Vineyard page
-- Clear contact information
-
-**Weaknesses:**
-- **Content thin throughout** — most pages skeletal; lacking depth, detail, and persuasive copy
-- **No detailed menu** — Dining page mentions "Fiesta Menu" but no actual menu items, descriptions, or pricing
-- **No wine list** — Vineyard page lists varietals but no actual wines, vintages, prices, or tasting notes
-- **No photography described** — Website heavily relies on text; no imagery descriptions or lifestyle content
-- **Missing storytelling** — Family story exists on Vineyard page but not woven throughout or emotionally compelling
-- **No blog/content marketing** — Blog section exists but appears unused; no organic SEO content
-- **Weak value proposition** — Homepage doesn't explain why Casita Miro is unique or special
-- **Awards not leveraged** — Awards listed but not explained; no links to award details or social proof
-- **No "About" page** — No dedicated page explaining restaurant history, philosophy, or team
-- **Limited wine program visibility** — Shop exists but wine selection/curation not explained; no sommelier notes
-- **Group/wedding pages sparse** — No pricing, packages, timelines, or example menus shown
-- **No FAQ or help content** — No answers to common questions about bookings, dietary restrictions, parking, etc.
-- **Scattered contact points** — Email and phone scattered across pages; no unified contact page
-- **No clear booking path** — Multiple call-to-action sections don't flow to clear booking funnel
-
-#### Key Messaging Currently Used
-- "Authentic Spanish Restaurant Waiheke"
-- "Cuisine of Spain and the wider Mediterranean Rim"
-- "All about shared dining"
-- "Tapas and raciones (large plates)"
-
-#### Awards & Social Proof
-Listed on website:
-- TripAdvisor Traveller's Choice "Best of the Best" 2011-2024 (13-year streak!)
-- Iconic Eats Auckland Top 100 (2025)
-- Lewisham Awards Winner - Outstanding Local Establishment (2025)
-- Cuisine Magazine Good Food Awards (2024)
-- 4.7/5 on TripAdvisor (1,758 reviews) — ranked #1 restaurant in Onetangi
-
-#### TripAdvisor Presence
-- URL: https://www.tripadvisor.co.nz/Restaurant_Review-g2423024-d1918580-Reviews-Casita_Miro-Onetangi_Waiheke_Island_North_Island.html
-- 1,758 reviews, 4.7/5 rating
-- Ranked #1 of 7 restaurants in Onetangi
-- Dominant review themes: "hidden gem," "authentic," "magical," "special occasion worthy," "staff warmth," "ocean views," "european experience"
-
-#### Social Media
-- Not visible in search results; likely minimal or no presence
-
-#### Email/CRM
-- "Casita Amigo" membership program (email list capture)
-- No visible newsletter or email marketing content
-
----
 
 ## 2. WAIHEKE ISLAND TOURISM MARKET
 
