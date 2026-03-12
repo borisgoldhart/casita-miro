@@ -8,13 +8,16 @@
 
 **What Casita Miro Aspires to Be (3-5 years):**
 
-Casita Miro is the **definitive Spanish food & wine destination in Australasia** — where authentic Spanish cuisine, Waiheke terroir, and premium Spanish goods converge. Like Movida (Melbourne), we're known for **Spanish-first positioning**, **bold aesthetic**, **seasonal ingredient storytelling**, and **thoughtful product curation**.
+**The "must go" culinary experience in New Zealand** — with an international reputation for the **most authentic Spanish food experience outside of Spain**. 
+
+We're not just a restaurant; we're a destination. A place where guests from around the world come specifically for Casita Miro because nowhere else offers this level of Spanish authenticity combined with Waiheke terroir and Barnett & Cat's family story. Like Movida in Melbourne, we're known for **Spanish-first positioning**, **bold aesthetic**, **seasonal ingredient storytelling**, and **thoughtful product curation** — but we go deeper: we own our vineyard, grow our own ingredients, import directly from Spanish bodegas, and tell the story of why.
 
 **Key Positioning:**
-- Spanish heritage is core (not Mediterranean fusion)
-- Waiheke vineyard and organic gardens amplify Spanish traditions
-- Premium but approachable (sophisticated, old world, comfortable, not stuffy)
-- Merchandise and products are extension of brand identity
+- Spanish heritage is absolutely core (not Mediterranean fusion)
+- Waiheke vineyard and organic gardens amplify Spanish traditions (not distract from them)
+- Premium but approachable (sophisticated, old world, comfortable, never stuffy)
+- Every product, every meal, every experience tells the Spanish story
+- International reputation for authenticity — the real deal, not imitation
 
 ---
 

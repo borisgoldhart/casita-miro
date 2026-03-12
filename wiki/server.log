@@ -57,3 +57,8 @@
 ::ffff:192.168.68.79 - - [12/Mar/2026 13:38:21] "GET /docs/swot_analysis.md HTTP/1.1" 200 -
 ::ffff:192.168.68.79 - - [12/Mar/2026 13:38:41] "GET /docs/swot_farm_to_table.md HTTP/1.1" 304 -
 ::ffff:192.168.68.79 - - [12/Mar/2026 13:39:39] "GET /docs/business_strategy.md HTTP/1.1" 304 -
+::ffff:192.168.68.79 - - [12/Mar/2026 13:42:37] "GET / HTTP/1.1" 304 -
+::ffff:192.168.68.79 - - [12/Mar/2026 13:42:37] "GET /css/marketing-bible.css HTTP/1.1" 304 -
+::ffff:192.168.68.79 - - [12/Mar/2026 13:42:37] "GET /js/markdown-renderer.js HTTP/1.1" 200 -
+::ffff:192.168.68.79 - - [12/Mar/2026 13:42:37] "GET /docs/business_strategy.md HTTP/1.1" 304 -
+::ffff:192.168.68.79 - - [12/Mar/2026 13:42:43] "GET /docs/swot_analysis.md HTTP/1.1" 200 -
