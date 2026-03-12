@@ -389,25 +389,30 @@ em {
 .nav-toggle {
     display: none;
     flex-direction: column;
-    gap: 6px;
+    gap: 5px;
     background: none;
     border: none;
-    padding: 8px;
+    padding: 8px 12px;
     cursor: pointer;
     z-index: 1001;
 }
 
 .nav-toggle span {
     display: block;
-    width: 24px;
-    height: 2px;
-    background: var(--near-black);
+    width: 28px;
+    height: 3px;
+    background: #1A1A1A;
     transition: all 0.35s var(--ease);
     transform-origin: center;
+    border-radius: 2px;
 }
 
 #site-header.at-top .nav-toggle span {
-    background: var(--white);
+    background: #1A1A1A;
+}
+
+#site-header.scrolled .nav-toggle span {
+    background: #1A1A1A;
 }
 
 .nav-toggle.active span:first-child {
@@ -1097,36 +1102,54 @@ footer {
 
     .nav-links {
         position: fixed;
-        top: 0;
+        top: 70px;
         left: 0;
         right: 0;
         bottom: 0;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 0;
         background: var(--cream);
+        padding: 2rem 0;
         transform: translateX(100%);
         transition: transform 0.5s var(--ease-out);
         z-index: 999;
+        overflow-y: auto;
     }
 
     .nav-links.active {
         transform: translateX(0);
     }
 
+    .nav-links li {
+        border-bottom: 1px solid #ddd;
+    }
+
     .nav-links a {
-        font-size: 1.5rem !important;
-        font-family: var(--serif);
+        display: block;
+        padding: 1.25rem 2rem !important;
+        font-size: 1.1rem !important;
+        font-family: var(--sans) !important;
         color: var(--near-black) !important;
+        transition: background 0.3s;
+    }
+
+    .nav-links a:hover {
+        background: #f0f0f0;
+        color: var(--red) !important;
     }
 
     .nav-links .nav-cta {
-        font-size: 0.85rem !important;
+        margin: 1.5rem 2rem 0 2rem !important;
+        padding: 0.75rem 1.5rem !important;
+        display: block !important;
+        text-align: center;
+        font-size: 0.9rem !important;
         font-family: var(--sans) !important;
-        margin-top: 1rem;
-        border-color: var(--red) !important;
-        color: var(--red) !important;
+        border: none !important;
+        background: var(--red) !important;
+        color: white !important;
     }
 
     /* Force toggle color in mobile menu open state */
