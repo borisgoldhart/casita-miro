@@ -271,5 +271,10 @@ We're not just a restaurant; we're a destination. A place where guests from arou
 - **Barnett:** Vineyard/wine strategy, wine club curation, sourcing expertise
 - **Together:** Spanish storytelling and brand authority
 
-**Competitive Advantage:** Only place in Australasia combining authentic Spanish cuisine, own vineyard, artisan farm-to-table ingredients, and premium Spanish goods curation. Waiheke location + award-winning reputation = defensible position.
+**Competitive Advantage:** Only place in Australasia combining:
+- **Restaurant making its own award-winning wines** (own 4.2-hectare vineyard)
+- **Farm-to-table with fresh produce grown on-site** (organic kitchen gardens for each service)
+- **Authentic Spanish ingredients sourced directly from Spain** (personal bodegas relationships, curated imports)
+
+Waiheke location + 13-year award-winning reputation = defensible, difficult-to-replicate position.
 

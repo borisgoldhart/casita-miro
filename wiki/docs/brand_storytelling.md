@@ -18,7 +18,9 @@
 ## Key Messages
 
 - **25+ years of Mediterranean mastery** — Barnett & Cat's credibility
-- **Own vineyard + organic gardens + direct Spanish sourcing** — Integrated supply chain
+- **Restaurant making own award-winning wines** — Own 4.2-hectare vineyard producing Miro Vineyard estate wines; no reliance on others
+- **Farm-to-table with fresh produce grown and prepared on-site** — Organic kitchen gardens growing herbs, salads, citrus, vegetables, olives; ingredients harvested to order for each service
+- **Direct sourcing of curated Spanish ingredients from Spain** — Personal relationships with Spanish bodegas and producers; imported wines, sherries, jamón ibérico, specialty cheeses, regional oils
 - **Award-winning since 2011** — 13-year TripAdvisor award streak validates quality
 - **Spanish-first, not fusion** — Authentic cuisine and ingredients
 
