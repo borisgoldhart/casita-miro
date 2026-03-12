@@ -73,13 +73,7 @@ const documents = [
         description: 'Social media strategy — platforms, content pillars, posting cadence, and community management.',
         tags: ['Social Media', 'Marketing', 'Content']
     },
-    {
-        id: 'social_calendar',
-        title: 'Social Calendar',
-        filename: 'social_calendar.md',
-        description: 'Tactical social media calendar — content ideas, posting schedule, and campaign calendar.',
-        tags: ['Social Media', 'Calendar', 'Tactics']
-    },
+
     {
         id: 'email_marketing',
         title: 'Email Marketing',
@@ -87,27 +81,9 @@ const documents = [
         description: 'Email marketing strategy — segmentation, sequences, and campaign planning.',
         tags: ['Email', 'Marketing', 'CRM']
     },
-    {
-        id: 'email_templates',
-        title: 'Email Templates',
-        filename: 'email_templates.md',
-        description: 'Email template designs and copy framework.',
-        tags: ['Email', 'Templates', 'Copy']
-    },
-    {
-        id: 'content_marketing',
-        title: 'Content Marketing',
-        filename: 'content_marketing.md',
-        description: 'Content marketing strategy — blog, guides, video, and storytelling content.',
-        tags: ['Content', 'Marketing', 'Blog']
-    },
-    {
-        id: 'blog_topics',
-        title: 'Blog Topics',
-        filename: 'blog_topics.md',
-        description: 'Blog post ideas and content calendar topics.',
-        tags: ['Content', 'Blog', 'Ideas']
-    },
+
+
+
     {
         id: 'influencer_pr',
         title: 'Influencer & PR',
@@ -115,13 +91,7 @@ const documents = [
         description: 'Influencer partnerships and PR strategy — key contacts, outreach tactics, and collaboration ideas.',
         tags: ['PR', 'Influencer', 'Partnerships']
     },
-    {
-        id: 'paid_advertising',
-        title: 'Paid Advertising',
-        filename: 'paid_advertising.md',
-        description: 'Paid media strategy — Google Ads, Facebook/Instagram, and retargeting campaigns.',
-        tags: ['Advertising', 'Paid Media', 'Digital']
-    },
+
     {
         id: 'events_partnerships',
         title: 'Events & Partnerships',
