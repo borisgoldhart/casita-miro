@@ -23,20 +23,7 @@ const documents = [
         description: 'Comprehensive SWOT assessment — strengths, weaknesses, opportunities, and threats in the Waiheke Island market.',
         tags: ['Analysis', 'Strategy', 'Market']
     },
-    {
-        id: 'swot_strategic_focus',
-        title: 'SWOT Strategic Focus',
-        filename: 'swot_strategic_focus.md',
-        description: 'Strategic recommendations and focus areas derived from SWOT analysis.',
-        tags: ['Strategy', 'Analysis', 'Focus']
-    },
-    {
-        id: 'swot_farm_to_table',
-        title: 'SWOT — Farm to Table',
-        filename: 'swot_farm_to_table.md',
-        description: 'SWOT analysis focused on farm-to-table and vineyard positioning.',
-        tags: ['Strategy', 'Farm to Table', 'Vineyard']
-    },
+
     {
         id: 'business_strategy',
         title: 'Business Strategy',
