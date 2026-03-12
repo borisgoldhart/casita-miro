@@ -1,6 +1,6 @@
 # Casita Miro - As-Is Analysis
 **Date:** March 12, 2026  
-**Scope:** Digital presence, competitive positioning, market opportunity
+**Scope:** Business operations, competitive positioning, market opportunity
 
 ---
 
@@ -12,7 +12,7 @@ Casita Miro occupies a **unique and powerful position** in New Zealand's hospita
 - Elite TripAdvisor rankings (#1 in Onetangi, 4.7/5 across 1,758 reviews)
 - Premium location within a booming wine tourism destination
 
-**Current State:** Strong operational and reputation management, but digital presence is underdeveloped relative to their accolades and market opportunity. Their website and marketing don't fully capture their unique value proposition or leverage their award-winning status.
+**Current State:** Strong operational and reputation management, with award-winning status and elite reputation. Market opportunity exists in expanding reach and brand positioning.
 
 ---
 
@@ -24,67 +24,7 @@ Casita Miro occupies a **unique and powerful position** in New Zealand's hospita
 - **Competitive advantage:** Own vineyard, Spanish cuisine, Mediterranean experience
 - **Scale:** Small, intimate venue (appears to be <100 covers based on imagery)
 
-### 1.2 Current Digital Presence
 
-#### Website (casitamiro.co.nz)
-**Structure:** ~25-30 pages across multiple sections (restaurant, vineyard, shop, events)
-
-**Strengths:**
-- Domain owned (good SEO foundation)
-- Multiple revenue streams represented: dining, wine sales, events, weddings, groups
-- Online booking system functional
-- E-commerce shop with product filtering
-- Separate pages for key experiences: Dining, Vineyard, Weddings, Groups, Madame Rouge
-- Email signup for "Casita Amigo" membership
-- Direct link to TripAdvisor (leveraging their #1 ranking)
-- Social media links present (Facebook, Instagram)
-- Founder/family story present on Vineyard page
-- Clear contact information
-
-**Weaknesses:**
-- **Content thin throughout** — most pages skeletal; lacking depth, detail, and persuasive copy
-- **No detailed menu** — Dining page mentions "Fiesta Menu" but no actual menu items, descriptions, or pricing
-- **No wine list** — Vineyard page lists varietals but no actual wines, vintages, prices, or tasting notes
-- **No photography described** — Website heavily relies on text; no imagery descriptions or lifestyle content
-- **Missing storytelling** — Family story exists on Vineyard page but not woven throughout or emotionally compelling
-- **No blog/content marketing** — Blog section exists but appears unused; no organic SEO content
-- **Weak value proposition** — Homepage doesn't explain why Casita Miro is unique or special
-- **Awards not leveraged** — Awards listed but not explained; no links to award details or social proof
-- **No "About" page** — No dedicated page explaining restaurant history, philosophy, or team
-- **Limited wine program visibility** — Shop exists but wine selection/curation not explained; no sommelier notes
-- **Group/wedding pages sparse** — No pricing, packages, timelines, or example menus shown
-- **No FAQ or help content** — No answers to common questions about bookings, dietary restrictions, parking, etc.
-- **Scattered contact points** — Email and phone scattered across pages; no unified contact page
-- **No clear booking path** — Multiple call-to-action sections don't flow to clear booking funnel
-
-#### Key Messaging Currently Used
-- "Authentic Spanish Restaurant Waiheke"
-- "Cuisine of Spain and the wider Mediterranean Rim"
-- "All about shared dining"
-- "Tapas and raciones (large plates)"
-
-#### Awards & Social Proof
-Listed on website:
-- TripAdvisor Traveller's Choice "Best of the Best" 2011-2024 (13-year streak!)
-- Iconic Eats Auckland Top 100 (2025)
-- Lewisham Awards Winner - Outstanding Local Establishment (2025)
-- Cuisine Magazine Good Food Awards (2024)
-- 4.7/5 on TripAdvisor (1,758 reviews) — ranked #1 restaurant in Onetangi
-
-#### TripAdvisor Presence
-- URL: https://www.tripadvisor.co.nz/Restaurant_Review-g2423024-d1918580-Reviews-Casita_Miro-Onetangi_Waiheke_Island_North_Island.html
-- 1,758 reviews, 4.7/5 rating
-- Ranked #1 of 7 restaurants in Onetangi
-- Dominant review themes: "hidden gem," "authentic," "magical," "special occasion worthy," "staff warmth," "ocean views," "european experience"
-
-#### Social Media
-- Not visible in search results; likely minimal or no presence
-
-#### Email/CRM
-- "Casita Amigo" membership program (email list capture)
-- No visible newsletter or email marketing content
-
----
 
 ## 2. WAIHEKE ISLAND TOURISM MARKET
 
@@ -164,83 +104,9 @@ Spanish restaurants in Auckland CBD:
 
 ---
 
-## 5. CASITA MIRO'S DIGITAL PRESENCE - DETAILED SITE AUDIT
+## 5. MARKET OPPORTUNITY ASSESSMENT
 
-### 5.0 Website Architecture
-- **Total pages:** ~25-30 estimated (including shop pages, product pages, blog)
-- **Main sections:** Restaurant (dining, bookings, groups), Vineyard, Events (weddings, groups, Christmas), Shop, Products (Madame Rouge)
-- **Functionality:** Online booking, e-commerce shop, email signup, contact forms
-- **CMS/Platform:** Appears to be custom or modular (Willing & Able credit in footer)
-- **Sitemap reference:** See dedicated "Casita-Miro-Website-Sitemap.md" for complete structure
-
-### 5.1 Website Issues
-
-| Aspect | Current State | Gap | Impact |
-|--------|---------------|-----|--------|
-| **Content depth** | Minimal (landing page only) | No storytelling, no menu detail, no wine list | Visitors bounce; low conversion to bookings |
-| **Visual content** | Sparse | No lifestyle imagery, vineyard photos, food porn, ocean views | Misses emotional connection; loses to competitors with better imagery |
-| **SEO foundation** | Basic domain only | No keyword-targeted content, no blog, limited copywriting | Poor search visibility for "Spanish restaurant Waiheke," "wine experience Waiheke," etc. |
-| **UX/Navigation** | Functional but basic | Unclear CTA hierarchy; hidden menus; no clear path to "book now" | Friction in booking journey |
-| **Trust signals** | Awards listed; TripAdvisor link | No customer testimonials on site; no photos from guests; no "about us"; no team bios | Relies entirely on off-site reviews |
-| **Wine program** | Mentioned but not detailed | No wine list, no tasting notes, no story about vineyard | Misses wine-focused visitor segment |
-| **Social/community** | Email signup only | No LinkedIn, Instagram, Facebook visible | Missing engagement channels and word-of-mouth amplification |
-
-### 5.1b Content Detail Analysis
-
-**What IS on the Website (Detailed Findings):**
-
-| Page | Status | Notes |
-|------|--------|-------|
-| **DINING** | Content present but thin | Philosophy about local sourcing; three menu formats mentioned (Fiesta, Cellar Door, Groups) but NO actual menus, dishes, descriptions, or prices provided |
-| **MIRO VINEYARD** | Rich storytelling + data gaps | Family story well-told; 4.2 hectare property details; varietals listed (Syrah, Bordeaux, Pinot Gris, Chardonnay, Albarino, Viognier); but NO complete wine list, NO vintages, NO tasting notes, NO pricing |
-| **MADAME ROUGE** | Brand story present | Unique aperitif product has brand personality and marketing copy; NO technical specs (ABV, production method), NO pricing, NO food pairings |
-| **SHOP** | Functional e-commerce | Wine, Spanish food products, gift sets available; filtering by category/brand/tag works; but wine curation/story NOT explained; sommelier guidance missing |
-| **WEDDINGS** | Bare-bones info | Capacity (60), dates (Apr-Oct), general offer; NO pricing, NO packages, NO catering menu, NO accommodation partnerships, NO timeline |
-| **GROUPS** | Bare-bones info | Capacity (80), occasions listed (birthday, anniversary, events); NO pricing, NO minimum spend, NO catering details |
-| **BOOKINGS** | Functional form | Online system works; heavy T&Cs (2-hour limit, $30 no-show, credit card hold); NO deposit info, NO final payment terms |
-| **BLOG** | Exists but empty(?) | Navigation shows blog link; content not reviewed (likely minimal) |
-| **ABOUT/TEAM** | Missing | No dedicated page explaining restaurant history, philosophy, team, or awards |
-| **FAQ** | Missing | No answers to common questions (parking, dietary, accessibility, etc.) |
-| **CONTACT** | Scattered | Email and phone on multiple pages; no unified contact page |
-
-**What's NOT on the Website (Critical Gaps):**
-
-- ❌ Full wine list with tasting notes and pricing
-- ❌ Complete menus with dish descriptions and prices
-- ❌ Food photography or lifestyle imagery
-- ❌ Pricing for events, groups, or dining
-- ❌ Detailed booking/planning timeline
-- ❌ Wedding or corporate event packages
-- ❌ Accommodation recommendations or partnerships
-- ❌ Chef or team bios
-- ❌ Restaurant history and origin story
-- ❌ Awards details and links
-- ❌ Blog/news/content marketing
-- ❌ FAQ or customer guides
-- ❌ Newsletter or content updates
-- ❌ Video tours or virtual experiences
-- ❌ Parking, directions, accessibility details
-- ❌ Staff recommendations or sommelier insights
-
-### 5.2 Discovery & Traffic Gaps
-
-**Where visitors currently find them:**
-1. TripAdvisor (likely primary source given 1,758 reviews and #1 ranking)
-2. Waiheke tourism sites and guides
-3. Google search ("restaurants Waiheke," "Spanish food Waiheke," etc.)
-4. Word of mouth / travel forums
-
-**Missed opportunities:**
-- Not visible in broader wine tourism searches ("wine experiences Waiheke," "boutique wine tours NZ")
-- Not leveraging food blogger / influencer channels
-- Not capturing email subscribers outside "Casita Amigo" initiative
-- No content marketing to drive organic traffic
-
----
-
-## 6. MARKET OPPORTUNITY ASSESSMENT
-
-### 6.1 Addressable Market
+### 5.1 Addressable Market
 
 **Primary Market (Direct Diners):**
 - Waiheke Island summer visitors (9,000 → 30,000 seasonal)
@@ -255,7 +121,7 @@ Spanish restaurants in Auckland CBD:
 - Online wine buyers
 - Corporate events and private dining
 
-### 6.2 Growth Opportunities
+### 5.2 Growth Opportunities
 
 **Short-term (0-6 months):**
 1. **Website redesign & content expansion** — Tell the story; showcase food, wine, views; build trust
@@ -276,23 +142,23 @@ Spanish restaurants in Auckland CBD:
 
 ---
 
-## 7. COMPETITIVE POSITIONING INSIGHTS
+## 6. COMPETITIVE POSITIONING INSIGHTS
 
-### 7.1 vs. Auckland Spanish Restaurants
+### 6.1 vs. Auckland Spanish Restaurants
 - **Casita Miro wins on:** Location (destination appeal), vineyard/wine program, exclusive positioning, natural surroundings
 - **Casita Miro loses on:** Frequency of visits (Waiheke is destination, not neighborhood), traffic volume
 
-### 7.2 vs. Other Waiheke Fine Dining
+### 6.2 vs. Other Waiheke Fine Dining
 - **Casita Miro wins on:** Authentic cuisine niche, wine ownership, TripAdvisor dominance, award recognition
 - **Casita Miro could improve:** Digital presence, content richness, experiential narrative, events programming
 
-### 7.3 vs. Premium Wine Experiences Nationally
+### 6.3 vs. Premium Wine Experiences Nationally
 - **Casita Miro wins on:** Accessible luxury (closer to Auckland than Hawke's Bay or Otago), unique Spanish angle, established reputation
 - **Casita Miro loses on:** Awareness (smaller marketing footprint), accommodation offerings, broader experience portfolio
 
 ---
 
-## 8. SUMMARY OF KEY FINDINGS
+## 7. SUMMARY OF KEY FINDINGS
 
 ### Strengths
 ✓ Exceptional reputation (4.7/5, #1 ranking, 13-year award streak)  
@@ -329,7 +195,7 @@ Spanish restaurants in Auckland CBD:
 
 ---
 
-## 9. NEXT STEPS - BUSINESS STRATEGY UPDATE
+## 8. NEXT STEPS - BUSINESS STRATEGY UPDATE
 
 This As-Is Analysis sets the foundation for the **Business Strategy Update**, which will define:
 
