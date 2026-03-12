@@ -198,8 +198,9 @@ async function loadDocument(doc) {
     window.location.hash = doc.id;
     
     try {
-        // Use relative path from current location
-        const docUrl = `./docs/${doc.filename}`;
+        // Get the base URL from the current document location
+        const baseUrl = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+        const docUrl = baseUrl + `docs/${doc.filename}`;
         const response = await fetch(docUrl);
         if (!response.ok) {
             throw new Error(`Failed to load document: ${response.status} ${response.statusText}`);
