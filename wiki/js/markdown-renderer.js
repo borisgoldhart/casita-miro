@@ -84,13 +84,7 @@ const documents = [
 
 
 
-    {
-        id: 'influencer_pr',
-        title: 'Influencer & PR',
-        filename: 'influencer_pr.md',
-        description: 'Influencer partnerships and PR strategy — key contacts, outreach tactics, and collaboration ideas.',
-        tags: ['PR', 'Influencer', 'Partnerships']
-    },
+
 
     {
         id: 'events_partnerships',
