@@ -3,293 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover Miro Vineyard wines, Spanish imports, and wine club membership at Casita Miro on Waiheke Island.">
-    <title>Wine | Casita Miro</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>Wine | Casita Miro — Estate Vineyard & Wine Club</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <a href="../index.html" style="text-decoration: none;">
-                    <h1 class="logo">Casita Miro</h1>
-                </a>
-            </div>
-            <button class="mobile-menu-toggle" id="mobileMenuToggle">
-                <span></span>
+
+    <header id="site-header">
+        <nav>
+            <a href="../index.html" class="nav-logo">
+                <img src="../images/logo-casita-miro.png" alt="Casita Miro" loading="eager">
+            </a>
+
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="../index.html#dining">Dining</a></li>
+                <li><a href="../index.html#vineyard">Vineyard</a></li>
+                <li><a href="../index.html#shop">Shop</a></li>
+                <li><a href="../index.html#events">Events</a></li>
+                <li><a href="../index.html#story">Our Story</a></li>
+                <li><a href="contact.html" class="nav-cta">Reserve</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="dining.html">Dining</a></li>
-                <li><a href="wine.html">Wine</a></li>
-                <li><a href="shop.html">Kitchen & Products</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h2 class="hero-title">Miro Vineyard & Wines</h2>
-            <p class="hero-subtitle">Estate wines from our 4.2-hectare vineyard. Spanish imports curated by Barnett Bond. Premium selections for the discerning palate.</p>
-            <div class="hero-ctas">
-                <a href="#shop" class="btn btn-primary">Shop Wine Online</a>
-                <a href="#club" class="btn btn-secondary">Join Wine Club</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="../images/wine-vineyard.jpg" alt="Miro Vineyard on Waiheke Island" loading="lazy">
+    <!-- Hero -->
+    <section class="page-hero" style="background-image: url('../images/wine-bottles.jpg');">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1>Our Vineyard</h1>
+            <p>4.2 hectares of Waiheke terroir. Award-winning wines. 13 years of excellence.</p>
         </div>
     </section>
 
-    <!-- Vineyard Story -->
-    <section>
-        <div class="container">
-            <div class="grid-2">
-                <div>
-                    <h3>Miro Vineyard Story</h3>
-                    <p>Our 4.2-hectare vineyard sits on Waiheke Island's distinctive volcanic soils, where Pacific breezes and long sunshine hours create optimal growing conditions.</p>
-                    
-                    <h4 style="color: var(--primary-red); margin-top: 1.5rem;">Terroir</h4>
-                    <p>Waiheke Island's unique terroir—volcanic soils, maritime climate, and 2,000+ hours of annual sunshine—produces wines of remarkable character and depth. Our location mirrors some of the world's greatest wine regions, allowing us to craft bottles that rival international standards.</p>
-
-                    <h4 style="color: var(--primary-red); margin-top: 1.5rem;">Winemaking Process</h4>
-                    <p>Barnett Bond's winemaking philosophy emphasizes minimal intervention and natural fermentation. We harvest by hand, ferment in temperature-controlled vessels, and age in French oak. Each vintage is tasted and approved by Barnett before release.</p>
-
-                    <h4 style="color: var(--primary-red); margin-top: 1.5rem;">Varietals</h4>
-                    <ul style="list-style: none; padding: 0;">
-                        <li style="margin-bottom: 0.75rem;"><strong>Syrah</strong> – Full-bodied, spiced, berry-forward</li>
-                        <li style="margin-bottom: 0.75rem;"><strong>Cabernet Sauvignon</strong> – Bold, structured, age-worthy</li>
-                        <li style="margin-bottom: 0.75rem;"><strong>Merlot</strong> – Smooth, elegant, food-friendly</li>
-                        <li style="margin-bottom: 0.75rem;"><strong>Sauvignon Blanc</strong> – Crisp, herbaceous, refreshing</li>
-                        <li><strong>Chardonnay</strong> – Buttery, complex, mineral</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="../images/vineyard-harvest.jpg" alt="Miro Vineyard harvest" loading="lazy">
+    <!-- Main Content -->
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <div class="split-layout split-layout--reverse">
+                    <div class="split-text">
+                        <h2>From Vine to Glass</h2>
+                        <p>Our estate vineyard sits on 4.2 hectares of prime Waiheke Island land, where we cultivate exceptional grapes that capture the island's unique terroir — warm, sun-blessed days tempered by cooling coastal winds.</p>
+                        <p>We produce a curated selection of wines, including our celebrated Syrah, elegant Rosé, and other varietals that consistently earn recognition from critics and collectors worldwide.</p>
+                        <p>Each bottle tells the story of our land, our passion, and our commitment to producing wines of genuine distinction.</p>
+                    </div>
+                    <div class="split-media">
+                        <img src="../images/wine-bottles.jpg" alt="Miro Vineyard wine selection" loading="lazy">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Wine Selection -->
-    <section id="shop" class="bg-light">
-        <div class="container">
-            <h3>Wine Selection</h3>
-            <p>Explore our complete wine list: Miro estate wines and curated Spanish imports, selected by Barnett.</p>
-
-            <div style="margin-top: 2rem;">
-                <h4 style="color: var(--primary-red);">MIRO ESTATE WINES</h4>
-                
-                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <h5>2023 Syrah</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><strong>Tasting Notes:</strong> Dark berries, black pepper, subtle oak, silky tannins</p>
-                    <p style="color: #666; margin-bottom: 1rem;"><strong>Food Pairing:</strong> Lamb, grilled meats, hearty Spanish dishes</p>
-                    <p style="margin: 0;"><strong>Price:</strong> NZD $48 per bottle | <strong>By the glass:</strong> NZD $14</p>
-                </div>
-
-                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <h5>2022 Cabernet Sauvignon</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><strong>Tasting Notes:</strong> Currant, cassis, structured, age-worthy</p>
-                    <p style="color: #666; margin-bottom: 1rem;"><strong>Food Pairing:</strong> Prime cuts, slow-roasted meats, aged cheeses</p>
-                    <p style="margin: 0;"><strong>Price:</strong> NZD $52 per bottle | <strong>By the glass:</strong> NZD $16</p>
-                </div>
-
-                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <h5>2024 Sauvignon Blanc</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><strong>Tasting Notes:</strong> Passionfruit, herbaceous, bright acidity, mineral finish</p>
-                    <p style="color: #666; margin-bottom: 1rem;"><strong>Food Pairing:</strong> Seafood, tapas, fresh salads, light appetizers</p>
-                    <p style="margin: 0;"><strong>Price:</strong> NZD $42 per bottle | <strong>By the glass:</strong> NZD $12</p>
-                </div>
-
-                <h4 style="color: var(--primary-red); margin-top: 3rem;">SPANISH IMPORTS (Curated by Barnett)</h4>
-                
-                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <h5>Tempranillo Reserva | La Rioja, Spain</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><strong>Tasting Notes:</strong> Leather, tobacco, dark fruit, velvety</p>
-                    <p style="color: #666; margin-bottom: 1rem;"><strong>Pairing:</strong> Slow-roasted meats, Spanish charcuterie, aged Manchego</p>
-                    <p style="margin: 0;"><strong>Price:</strong> NZD $54 per bottle | <strong>By the glass:</strong> NZD $16</p>
-                </div>
-
-                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <h5>Albariño | Rías Baixas, Galicia</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><strong>Tasting Notes:</strong> Stone fruit, oyster shell minerality, crisp, refreshing</p>
-                    <p style="color: #666; margin-bottom: 1rem;"><strong>Pairing:</strong> Seafood, ceviche, fresh oysters, light appetizers</p>
-                    <p style="margin: 0;"><strong>Price:</strong> NZD $46 per bottle | <strong>By the glass:</strong> NZD $13</p>
-                </div>
-
-                <div style="background-color: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
-                    <h5>Priorat | Monsant, Catalonia</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><strong>Tasting Notes:</strong> Rich, full-bodied, dark fruits, mineral complexity</p>
-                    <p style="color: #666; margin-bottom: 1rem;"><strong>Pairing:</strong> Spanish cured meats, hearty stews, rich desserts</p>
-                    <p style="margin: 0;"><strong>Price:</strong> NZD $68 per bottle | <strong>By the glass:</strong> NZD $20</p>
+        <section class="page-section dark-section">
+            <div class="container">
+                <h2 style="text-align: center; color: white; margin-bottom: 3rem;">Wine Club</h2>
+                <div class="grid-2">
+                    <div>
+                        <h3 style="color: #D32F2F;">Join Our Wine Club</h3>
+                        <p>Exclusive access to new releases, limited-edition vintages, and private tastings at our vineyard.</p>
+                        <p style="margin-top: 1.5rem;">Members enjoy:</p>
+                        <ul style="margin-top: 1rem; margin-left: 1.5rem;">
+                            <li>Quarterly wine releases</li>
+                            <li>10% discount on bottles</li>
+                            <li>Invitation to member events</li>
+                            <li>Behind-the-scenes vineyard tours</li>
+                            <li>Priority seating at tastings</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 style="color: #D32F2F;">Cellar Door Tastings</h3>
+                        <p>Visit our vineyard and experience our wines in their natural setting. Our knowledgeable team will guide you through the range and share the stories behind each vintage.</p>
+                        <p style="margin-top: 1.5rem;"><strong>Open same hours as restaurant</strong></p>
+                        <p>Tastings by appointment recommended<br>
+                        <strong>Phone:</strong> (09) 372 7854</p>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <a href="https://example.com/shop" class="btn btn-primary" style="margin-top: 2rem;">Shop Full Wine List Online</a>
-        </div>
-    </section>
-
-    <!-- Wine Club -->
-    <section id="club">
-        <div class="container">
-            <h3 style="text-align: center; margin-bottom: 3rem;">Join the Wine Club</h3>
-
-            <div class="grid-3">
-                <div style="background-color: var(--cream); padding: 2rem; border-radius: 8px; border: 2px solid var(--light-gray);">
-                    <h4 style="color: var(--primary-red); font-size: 1.5rem; margin-bottom: 0.5rem;">Explorer</h4>
-                    <p style="font-size: 1.5rem; color: var(--primary-red); font-weight: 700; margin: 1rem 0;">$75<span style="font-size: 1rem; color: #666;">/quarter</span></p>
-                    <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
-                        <li style="margin-bottom: 1rem;">✓ 3 bottles per quarter (estate wines)</li>
-                        <li style="margin-bottom: 1rem;">✓ 10% discount on all additional purchases</li>
-                        <li style="margin-bottom: 1rem;">✓ Member tasting events (2x yearly)</li>
-                        <li style="margin-bottom: 1rem;">✓ Exclusive members-only newsletter</li>
-                        <li>✓ Free shipping on orders $100+</li>
-                    </ul>
-                    <button class="btn btn-secondary" style="width: 100%; margin-top: 1rem;">Join Now</button>
-                </div>
-
-                <div style="background-color: var(--primary-red); color: white; padding: 2rem; border-radius: 8px; border: 2px solid var(--primary-red); position: relative;">
-                    <span style="position: absolute; top: -15px; right: 20px; background-color: var(--gold); color: var(--dark-gray); padding: 0.5rem 1rem; border-radius: 4px; font-weight: 700; font-size: 0.85rem;">MOST POPULAR</span>
-                    <h4 style="color: white; font-size: 1.5rem; margin-bottom: 0.5rem;">Connoisseur</h4>
-                    <p style="font-size: 1.5rem; color: var(--gold); font-weight: 700; margin: 1rem 0;">$150<span style="font-size: 1rem; color: rgba(255, 255, 255, 0.9);">/quarter</span></p>
-                    <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
-                        <li style="margin-bottom: 1rem;">✓ 6 bottles per quarter (estate + Spanish imports)</li>
-                        <li style="margin-bottom: 1rem;">✓ 15% discount on all purchases</li>
-                        <li style="margin-bottom: 1rem;">✓ Exclusive sommelier tastings (quarterly)</li>
-                        <li style="margin-bottom: 1rem;">✓ Early access to limited releases</li>
-                        <li style="margin-bottom: 1rem;">✓ Free shipping on all orders</li>
-                        <li>✓ Dinner invitation (1x yearly)</li>
-                    </ul>
-                    <button class="btn btn-primary" style="width: 100%; margin-top: 1rem; background-color: white; color: var(--primary-red); border-color: white;">Join Now</button>
-                </div>
-
-                <div style="background-color: var(--cream); padding: 2rem; border-radius: 8px; border: 2px solid var(--light-gray);">
-                    <h4 style="color: var(--primary-red); font-size: 1.5rem; margin-bottom: 0.5rem;">Collector</h4>
-                    <p style="font-size: 1.5rem; color: var(--primary-red); font-weight: 700; margin: 1rem 0;">$250<span style="font-size: 1rem; color: #666;">/quarter</span></p>
-                    <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
-                        <li style="margin-bottom: 1rem;">✓ 12 bottles per quarter (premium selection)</li>
-                        <li style="margin-bottom: 1rem;">✓ 20% discount on all purchases</li>
-                        <li style="margin-bottom: 1rem;">✓ Personal sommelier consultation</li>
-                        <li style="margin-bottom: 1rem;">✓ VIP access to all events</li>
-                        <li style="margin-bottom: 1rem;">✓ Free shipping + complimentary gift packaging</li>
-                        <li>✓ Annual vineyard tour with Barnett</li>
-                    </ul>
-                    <button class="btn btn-secondary" style="width: 100%; margin-top: 1rem;">Join Now</button>
+        <section class="page-section">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 3rem;">Current Selection</h2>
+                <div class="grid-3">
+                    <div class="wine-card">
+                        <h3>Syrah 2021</h3>
+                        <p style="color: #666;">Full-bodied, complex, with notes of dark berries and black pepper. Our signature vintage.</p>
+                        <p style="margin-top: 1rem; color: #D32F2F; font-weight: 600;">$65 NZD</p>
+                    </div>
+                    <div class="wine-card">
+                        <h3>Rosé 2023</h3>
+                        <p style="color: #666;">Dry and elegant with delicate fruit flavors and crisp acidity. Perfect for warm island days.</p>
+                        <p style="margin-top: 1rem; color: #D32F2F; font-weight: 600;">$42 NZD</p>
+                    </div>
+                    <div class="wine-card">
+                        <h3>White Blend 2022</h3>
+                        <p style="color: #666;">A refreshing blend with minerality and stone fruit character. Excellent with seafood.</p>
+                        <p style="margin-top: 1rem; color: #D32F2F; font-weight: 600;">$48 NZD</p>
+                    </div>
                 </div>
             </div>
+        </section>
+    </main>
 
-            <div style="background-color: #fafafa; padding: 2rem; border-radius: 8px; margin-top: 3rem; text-align: center;">
-                <h4 style="color: var(--dark-gray);">FAQ</h4>
-                <p><strong>Can I cancel anytime?</strong> Yes, no long-term commitment. Cancel after any quarter.</p>
-                <p><strong>Do you ship nationwide?</strong> Yes, we ship to all major NZ locations. Shipping included for Connoisseur and Collector tiers.</p>
-                <p style="margin: 0;"><strong>Questions?</strong> <a href="contact.html">Contact us</a> or call <a href="tel:+64-9-372-5025">+64 9 372 5025</a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tastings & Education -->
-    <section class="bg-light">
-        <div class="container">
-            <h3>Tastings & Education</h3>
-            <p>Learn about wine in a relaxed, welcoming environment led by Barnett and our experienced sommelier.</p>
-
-            <div class="grid-2" style="margin-top: 2rem;">
-                <div style="background-color: white; padding: 2rem; border-radius: 8px;">
-                    <h4 style="color: var(--primary-red);">Casual Wine Tasting</h4>
-                    <p><strong>Perfect for:</strong> Beginners, casual learners, friends looking for a fun afternoon</p>
-                    <p><strong>Duration:</strong> 90 minutes</p>
-                    <p><strong>Price:</strong> NZD $35 per person (includes 5 wines and light snacks)</p>
-                    <p><strong>Includes:</strong> Miro estate wines, Spanish import tasting, food pairings</p>
-                    <a href="#book-tasting" class="btn btn-secondary">Book Casual Tasting</a>
-                </div>
-
-                <div style="background-color: white; padding: 2rem; border-radius: 8px;">
-                    <h4 style="color: var(--primary-red);">Sommelier-Led Tasting</h4>
-                    <p><strong>Perfect for:</strong> Wine enthusiasts, collectors, serious learners</p>
-                    <p><strong>Duration:</strong> 120 minutes</p>
-                    <p><strong>Price:</strong> NZD $65 per person (includes 7 wines, cheese + charcuterie board)</p>
-                    <p><strong>Includes:</strong> Deep dive into terroir, winemaking, regional styles, personal recommendations</p>
-                    <a href="#book-tasting" class="btn btn-secondary">Book Sommelier Tasting</a>
-                </div>
-
-                <div style="background-color: white; padding: 2rem; border-radius: 8px;">
-                    <h4 style="color: var(--primary-red);">Private Vineyard Tour</h4>
-                    <p><strong>Perfect for:</strong> Special occasions, corporate groups, wine clubs</p>
-                    <p><strong>Duration:</strong> 3 hours</p>
-                    <p><strong>Price:</strong> NZD $250 per group (up to 8 people)</p>
-                    <p><strong>Includes:</strong> Vineyard walk with Barnett, barrel room tasting, gourmet lunch</p>
-                    <a href="contact.html" class="btn btn-secondary">Request Custom Tour</a>
-                </div>
-
-                <div style="background-color: white; padding: 2rem; border-radius: 8px;">
-                    <h4 style="color: var(--primary-red);">Spanish Wine Masterclass</h4>
-                    <p><strong>Perfect for:</strong> Serious collectors, hospitality professionals, wine educators</p>
-                    <p><strong>Duration:</strong> 2.5 hours</p>
-                    <p><strong>Price:</strong> NZD $95 per person</p>
-                    <p><strong>Includes:</strong> Regional deep-dive (Rioja, Priorat, Rías Baixas), 8 wine selection, charcuterie feast</p>
-                    <a href="contact.html" class="btn btn-secondary">Book Masterclass</a>
-                </div>
-            </div>
-
-            <div style="background-color: white; padding: 2rem; border-radius: 8px; margin-top: 2rem;">
-                <p><strong>Group Bookings:</strong> Custom tasting experiences available for groups of 6+. Contact us to discuss your preferences and budget.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
+    <footer>
+        <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section">
+                <div>
+                    <h4>Casita Miro</h4>
+                    <p>Award-winning Spanish restaurant & vineyard on Waiheke Island</p>
+                </div>
+                <div>
                     <h4>Quick Links</h4>
                     <ul>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="dining.html">Dining</a></li>
-                        <li><a href="wine.html">Wine</a></li>
                         <li><a href="shop.html">Shop</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
+                <div>
                     <h4>Contact</h4>
-                    <p>
-                        <strong>Phone:</strong> +64 9 372 5025<br>
-                        <strong>Email:</strong> hello@casitamiro.co.nz<br>
-                        <strong>Address:</strong> 3 Brown Road, Onetangi, Waiheke Island 1081
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Hours</h4>
-                    <p>
-                        <strong>Summer (Nov-Mar):</strong> Thu-Sun 12-10 PM<br>
-                        <strong>Autumn-Spring (Apr-Oct):</strong> Fri-Sun 12-10 PM<br>
-                        <em>Closed Mondays</em>
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <div class="social-icons">
-                        <a href="https://instagram.com/casitamiro" target="_blank" aria-label="Instagram">📷</a>
-                        <a href="https://facebook.com/casitamiro" target="_blank" aria-label="Facebook">f</a>
-                        <a href="https://tripadvisor.com" target="_blank" aria-label="TripAdvisor">✓</a>
-                    </div>
+                    <p>(09) 372 7854<br>
+                    cmenquiries@outlook.com<br>
+                    3 Brown Road, Onetangi<br>
+                    Waiheke Island 1081</p>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Casita Miro. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a> | <a href="contact.html">Contact</a>
-                </div>
             </div>
         </div>
     </footer>

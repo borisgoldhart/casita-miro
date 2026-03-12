@@ -3,288 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Casita Miro restaurant and vineyard on Waiheke Island. Phone, email, reservations, and event inquiries.">
-    <title>Contact | Casita Miro</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contact | Casita Miro — Reservations & Inquiries</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <a href="../index.html" style="text-decoration: none;">
-                    <h1 class="logo">Casita Miro</h1>
-                </a>
-            </div>
-            <button class="mobile-menu-toggle" id="mobileMenuToggle">
-                <span></span>
+
+    <header id="site-header">
+        <nav>
+            <a href="../index.html" class="nav-logo">
+                <img src="../images/logo-casita-miro.png" alt="Casita Miro" loading="eager">
+            </a>
+
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="../index.html#dining">Dining</a></li>
+                <li><a href="../index.html#vineyard">Vineyard</a></li>
+                <li><a href="../index.html#shop">Shop</a></li>
+                <li><a href="../index.html#events">Events</a></li>
+                <li><a href="../index.html#story">Our Story</a></li>
+                <li><a href="contact.html" class="nav-cta">Reserve</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="dining.html">Dining</a></li>
-                <li><a href="wine.html">Wine</a></li>
-                <li><a href="shop.html">Kitchen & Products</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero" style="padding: 4rem 0;">
-        <div class="hero-content">
-            <h2 class="hero-title">Get In Touch</h2>
-            <p class="hero-subtitle">Questions, reservations, or event inquiries? We'd love to hear from you.</p>
+    <!-- Hero -->
+    <section class="page-hero" style="background-image: url('../images/hero-vineyard-ocean.jpg');">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1>Get in Touch</h1>
+            <p>Reservations, events, inquiries & wine club questions</p>
         </div>
     </section>
 
-    <!-- Contact Info & Form -->
-    <section>
-        <div class="container">
-            <div class="grid-2" style="gap: 4rem;">
-                <!-- Contact Info -->
-                <div>
-                    <h3>Contact Information</h3>
+    <!-- Main Content -->
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <div class="grid-2" style="gap: 4rem;">
+                    <div>
+                        <h2 style="margin-bottom: 2rem;">Contact Info</h2>
+                        
+                        <div style="margin-bottom: 3rem;">
+                            <h3 style="color: #D32F2F; margin-bottom: 0.5rem;">Phone</h3>
+                            <p><a href="tel:+64933727854" style="color: #333; font-weight: 500;">+64 9 372 7854</a></p>
+                        </div>
 
-                    <div style="margin-bottom: 2.5rem;">
-                        <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Phone</h4>
-                        <p style="margin: 0;">
-                            <a href="tel:+64-9-372-5025" style="font-size: 1.25rem; font-weight: 600; color: var(--primary-red);">+64 9 372 5025</a><br>
-                            <span style="color: #666; font-size: 0.95rem;">Available during service hours</span>
-                        </p>
+                        <div style="margin-bottom: 3rem;">
+                            <h3 style="color: #D32F2F; margin-bottom: 0.5rem;">Email</h3>
+                            <p><a href="mailto:cmenquiries@outlook.com" style="color: #333; font-weight: 500;">cmenquiries@outlook.com</a></p>
+                        </div>
+
+                        <div style="margin-bottom: 3rem;">
+                            <h3 style="color: #D32F2F; margin-bottom: 0.5rem;">Address</h3>
+                            <p>3 Brown Road<br>
+                            Onetangi, Waiheke Island<br>
+                            1081, New Zealand</p>
+                        </div>
+
+                        <div>
+                            <h3 style="color: #D32F2F; margin-bottom: 1rem;">Hours</h3>
+                            <p><strong>Restaurant & Cellar Door</strong><br>
+                            Wed – Sun: 11am – 5pm<br>
+                            Thu – Sat: 5:30pm – 10:30pm<br>
+                            Closed Mon & Tue</p>
+                        </div>
                     </div>
 
-                    <div style="margin-bottom: 2.5rem;">
-                        <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Email</h4>
-                        <p style="margin: 0;">
-                            <a href="mailto:hello@casitamiro.co.nz" style="font-weight: 600; color: var(--primary-red);">hello@casitamiro.co.nz</a><br>
-                            <span style="color: #666; font-size: 0.95rem;">We respond within 24 hours</span>
-                        </p>
-                    </div>
-
-                    <div style="margin-bottom: 2.5rem;">
-                        <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Physical Address</h4>
-                        <p style="margin: 0; line-height: 1.8;">
-                            <strong>Casita Miro</strong><br>
-                            3 Brown Road<br>
-                            Onetangi<br>
-                            Waiheke Island 1081<br>
-                            New Zealand
-                        </p>
-                    </div>
-
-                    <div style="margin-bottom: 2.5rem;">
-                        <h4 style="color: var(--primary-red); margin-bottom: 0.5rem;">Hours</h4>
-                        <p style="margin: 0;">
-                            <strong>Summer (Nov-Mar):</strong><br>
-                            Thursday - Sunday, 12:00 PM - 10:00 PM<br>
-                            <br>
-                            <strong>Autumn-Spring (Apr-Oct):</strong><br>
-                            Friday - Sunday, 12:00 PM - 10:00 PM<br>
-                            <br>
-                            <em style="color: #666;">Closed Mondays. Seasonal winter closures.</em>
-                        </p>
-                    </div>
-
-                    <div style="background-color: var(--cream); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--primary-red);">
-                        <h4 style="color: var(--primary-red); margin-top: 0;">Map</h4>
-                        <p style="margin-bottom: 1rem; color: #666;">Find us on Waiheke Island near Onetangi:</p>
-                        <iframe src="https://maps.google.com/maps?q=3%20Brown%20Road%20Onetangi%20Waiheke&t=m&z=15&output=embed" width="100%" height="300" style="border: none; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div>
+                        <h2 style="margin-bottom: 2rem;">Send a Message</h2>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <select required>
+                                    <option value="">Select Topic</option>
+                                    <option value="reservation">Dining Reservation</option>
+                                    <option value="wine-club">Wine Club Inquiry</option>
+                                    <option value="events">Private Event</option>
+                                    <option value="shop">Shop Order</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Your Message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </form>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <!-- Contact Form -->
-                <div>
-                    <h3>Send Us a Message</h3>
-                    <p>Use the form below for inquiries, reservations, event planning, or general questions.</p>
-
-                    <form id="contactForm" style="background-color: #fafafa; padding: 2rem; border-radius: 8px;">
-                        <div style="margin-bottom: 1.5rem;">
-                            <label for="name" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Name *</label>
-                            <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                        </div>
-
-                        <div style="margin-bottom: 1.5rem;">
-                            <label for="email" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Email *</label>
-                            <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                        </div>
-
-                        <div style="margin-bottom: 1.5rem;">
-                            <label for="phone" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Phone</label>
-                            <input type="tel" id="phone" name="phone" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                        </div>
-
-                        <div style="margin-bottom: 1.5rem;">
-                            <label for="inquiry-type" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Inquiry Type *</label>
-                            <select id="inquiry-type" name="inquiry_type" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                                <option value="">Select an option</option>
-                                <option value="dining">Dining Reservation</option>
-                                <option value="wine">Wine Club or Wine Tasting</option>
-                                <option value="event">Event Planning (Wedding, Corporate, etc.)</option>
-                                <option value="products">Product Inquiry</option>
-                                <option value="general">General Question</option>
-                            </select>
-                        </div>
-
-                        <div style="margin-bottom: 1.5rem;">
-                            <label for="message" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Message *</label>
-                            <textarea id="message" name="message" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans); min-height: 150px; resize: vertical;"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 1rem;">Send Message</button>
-                        <p style="font-size: 0.9rem; color: #666; margin: 0;">We'll respond within 24 hours during business hours.</p>
-                    </form>
+        <section class="page-section dark-section">
+            <div class="container">
+                <h2 style="color: white; text-align: center; margin-bottom: 3rem;">Frequently Asked Questions</h2>
+                
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3 style="color: #D32F2F;">How far in advance should I book?</h3>
+                        <p>We recommend booking at least 2–3 weeks in advance, especially for dinner service and weekends. Walk-ins welcome, but availability may be limited.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 style="color: #D32F2F;">Do you have vegetarian options?</h3>
+                        <p>Yes, we offer vegetarian tasting menus and can accommodate most dietary requirements. Please let us know in advance.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 style="color: #D32F2F;">Can I purchase your wines online?</h3>
+                        <p>Contact us directly for wine orders and shipping. Wine Club members receive quarterly selections and discounts.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 style="color: #D32F2F;">What's the dress code?</h3>
+                        <p>Smart casual. We're relaxed but refined. Beachwear and thongs are not appropriate for evening service.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Quick Links Section -->
-    <section class="bg-light">
-        <div class="container">
-            <h3 style="text-align: center; margin-bottom: 2rem;">What Are You Looking For?</h3>
-
-            <div class="grid-3">
-                <a href="../pages/dining.html#book" style="background-color: white; padding: 2rem; border-radius: 8px; text-decoration: none; color: var(--dark-gray); box-shadow: var(--shadow-light); transition: all var(--transition-standard); display: block; text-align: center;">
-                    <h4 style="color: var(--primary-red); margin-top: 0;">📅 Book a Table</h4>
-                    <p style="margin: 0;">Reserve your dining experience at Casita Miro</p>
-                </a>
-
-                <a href="../pages/wine.html#club" style="background-color: white; padding: 2rem; border-radius: 8px; text-decoration: none; color: var(--dark-gray); box-shadow: var(--shadow-light); transition: all var(--transition-standard); display: block; text-align: center;">
-                    <h4 style="color: var(--primary-red); margin-top: 0;">🍷 Join Wine Club</h4>
-                    <p style="margin: 0;">Explore our wine club membership options</p>
-                </a>
-
-                <a href="../pages/events.html" style="background-color: white; padding: 2rem; border-radius: 8px; text-decoration: none; color: var(--dark-gray); box-shadow: var(--shadow-light); transition: all var(--transition-standard); display: block; text-align: center;">
-                    <h4 style="color: var(--primary-red); margin-top: 0;">🎉 Plan an Event</h4>
-                    <p style="margin: 0;">Host your wedding, corporate event, or celebration</p>
-                </a>
-
-                <a href="../pages/shop.html" style="background-color: white; padding: 2rem; border-radius: 8px; text-decoration: none; color: var(--dark-gray); box-shadow: var(--shadow-light); transition: all var(--transition-standard); display: block; text-align: center;">
-                    <h4 style="color: var(--primary-red); margin-top: 0;">🛍️ Shop Products</h4>
-                    <p style="margin: 0;">Browse our artisan food products and gift boxes</p>
-                </a>
-
-                <a href="../pages/wine.html#shop" style="background-color: white; padding: 2rem; border-radius: 8px; text-decoration: none; color: var(--dark-gray); box-shadow: var(--shadow-light); transition: all var(--transition-standard); display: block; text-align: center;">
-                    <h4 style="color: var(--primary-red); margin-top: 0;">🍾 Buy Wine Online</h4>
-                    <p style="margin: 0;">Shop our wine selection and place an order</p>
-                </a>
-
-                <a href="../pages/about.html" style="background-color: white; padding: 2rem; border-radius: 8px; text-decoration: none; color: var(--dark-gray); box-shadow: var(--shadow-light); transition: all var(--transition-standard); display: block; text-align: center;">
-                    <h4 style="color: var(--primary-red); margin-top: 0;">📖 Our Story</h4>
-                    <p style="margin: 0;">Learn about Barnett and Cat's 25+ year journey</p>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
-    <section>
-        <div class="container">
-            <h3 style="text-align: center; margin-bottom: 2rem;">Frequently Asked Questions</h3>
-
-            <div style="max-width: 800px; margin: 0 auto;">
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">How do I make a dining reservation?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;">You can book online through our Dining page, call us at +64 9 372 5025, or email hello@casitamiro.co.nz. We confirm all reservations within 2 hours. Walk-ins welcome at Cellar Door (no booking required).</p>
-                </details>
-
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">What are your opening hours?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;"><strong>Summer (Nov-Mar):</strong> Thursday-Sunday, 12:00 PM - 10:00 PM<br><strong>Autumn-Spring (Apr-Oct):</strong> Friday-Sunday, 12:00 PM - 10:00 PM<br>Closed Mondays. Seasonal closures apply in winter.</p>
-                </details>
-
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">Do you accommodate dietary requirements?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;">Yes! We accommodate vegetarian, vegan, gluten-free, and allergy-free requests. Please notify us when booking so our kitchen can prepare accordingly.</p>
-                </details>
-
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">What's your cancellation policy?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;">Reservations can be cancelled up to 48 hours before your booking with no penalty. Cancellations within 48 hours may incur a cancellation fee equal to 50% of the total booking value.</p>
-                </details>
-
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">Can we bring children?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;">Absolutely! Children are welcome at Casita Miro. We recommend the Cellar Door for families (more casual) but Fiesta menu reservations work too. Let us know when booking and we'll ensure a great experience for everyone.</p>
-                </details>
-
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">Do you offer group discounts?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;">For groups of 6+, contact us directly to discuss options. We can often arrange special group pricing and customized experiences.</p>
-                </details>
-
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">Can I pre-order wine for my visit?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;">Yes! Contact us before your visit and we can set aside bottles or prepare specific wine pairings. Just mention this in your reservation notes or call us directly.</p>
-                </details>
-
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">Is there a dress code?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;">Smart casual is recommended. No beachwear or athletic wear. Come as you are—we focus on making you feel comfortable and welcomed.</p>
-                </details>
-
-                <details style="background-color: #fafafa; padding: 1.5rem; border-radius: 8px; cursor: pointer;">
-                    <summary style="font-weight: 600; color: var(--primary-red);">Is the venue wheelchair accessible?</summary>
-                    <p style="margin-top: 1rem; margin-bottom: 0; color: #666;">Yes, we have wheelchair accessible parking and entrance. Please contact us if you have specific accessibility requirements and we'll ensure everything is perfect for your visit.</p>
-                </details>
-            </div>
-
-            <div style="background-color: var(--cream); padding: 2rem; border-radius: 8px; text-align: center; margin-top: 3rem;">
-                <p style="margin: 0;"><strong>More questions?</strong> Contact us directly at <a href="tel:+64-9-372-5025">+64 9 372 5025</a> or <a href="mailto:hello@casitamiro.co.nz">hello@casitamiro.co.nz</a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
+    <footer>
+        <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section">
+                <div>
+                    <h4>Casita Miro</h4>
+                    <p>Award-winning Spanish restaurant & vineyard on Waiheke Island</p>
+                </div>
+                <div>
                     <h4>Quick Links</h4>
                     <ul>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="dining.html">Dining</a></li>
                         <li><a href="wine.html">Wine</a></li>
                         <li><a href="shop.html">Shop</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="about.html">About</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
+                <div>
                     <h4>Contact</h4>
-                    <p>
-                        <strong>Phone:</strong> +64 9 372 5025<br>
-                        <strong>Email:</strong> hello@casitamiro.co.nz<br>
-                        <strong>Address:</strong> 3 Brown Road, Onetangi, Waiheke Island 1081
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Hours</h4>
-                    <p>
-                        <strong>Summer (Nov-Mar):</strong> Thu-Sun 12-10 PM<br>
-                        <strong>Autumn-Spring (Apr-Oct):</strong> Fri-Sun 12-10 PM<br>
-                        <em>Closed Mondays</em>
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <div class="social-icons">
-                        <a href="https://instagram.com/casitamiro" target="_blank" aria-label="Instagram">📷</a>
-                        <a href="https://facebook.com/casitamiro" target="_blank" aria-label="Facebook">f</a>
-                        <a href="https://tripadvisor.com" target="_blank" aria-label="TripAdvisor">✓</a>
-                    </div>
+                    <p>(09) 372 7854<br>
+                    cmenquiries@outlook.com<br>
+                    3 Brown Road, Onetangi<br>
+                    Waiheke Island 1081</p>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Casita Miro. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a> | <a href="contact.html">Contact</a>
-                </div>
             </div>
         </div>
     </footer>

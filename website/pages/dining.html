@@ -3,318 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Experience award-winning Spanish cuisine at Casita Miro. Fiesta menu, Cellar Door, and fine dining on Waiheke Island.">
-    <title>Dining | Casita Miro</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>Dining | Casita Miro — Award-Winning Spanish Restaurant</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <a href="../index.html" style="text-decoration: none;">
-                    <h1 class="logo">Casita Miro</h1>
-                </a>
-            </div>
-            <button class="mobile-menu-toggle" id="mobileMenuToggle">
-                <span></span>
+
+    <header id="site-header">
+        <nav>
+            <a href="../index.html" class="nav-logo">
+                <img src="../images/logo-casita-miro.png" alt="Casita Miro" loading="eager">
+            </a>
+
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="../index.html#dining">Dining</a></li>
+                <li><a href="../index.html#vineyard">Vineyard</a></li>
+                <li><a href="../index.html#shop">Shop</a></li>
+                <li><a href="../index.html#events">Events</a></li>
+                <li><a href="../index.html#story">Our Story</a></li>
+                <li><a href="contact.html" class="nav-cta">Reserve</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="dining.html">Dining</a></li>
-                <li><a href="wine.html">Wine</a></li>
-                <li><a href="shop.html">Kitchen & Products</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h2 class="hero-title">Dining at Casita Miro</h2>
-            <p class="hero-subtitle">Award-winning Spanish cuisine. Farm-to-table philosophy. Exceptional service with ocean views.</p>
-            <div class="hero-ctas">
-                <a href="#book" class="btn btn-primary">Book a Table</a>
-                <a href="#menu" class="btn btn-secondary">View Menu</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="../images/dining-plated.jpg" alt="Beautifully plated Spanish cuisine at Casita Miro" loading="lazy">
+    <!-- Hero -->
+    <section class="page-hero" style="background-image: url('../images/dish-1.jpg');">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1>Our Dining Philosophy</h1>
+            <p>Farm-to-table Spanish cuisine, executed with precision and passion</p>
         </div>
     </section>
 
-    <!-- Dining Philosophy -->
-    <section>
-        <div class="container">
-            <div class="grid-2">
-                <div>
-                    <h3>Our Dining Philosophy</h3>
-                    <p>At Casita Miro, we believe exceptional dining comes from authenticity, quality, and care. Every dish celebrates Spanish tradition while showcasing the best of Waiheke Island's produce.</p>
-                    <p><strong>Farm-to-table approach:</strong> We work with local organic growers to source seasonal ingredients at their peak.</p>
-                    <p><strong>Spanish sourcing:</strong> Our pantry is filled with carefully curated Spanish imports—olive oils, cured meats, cheeses, and wines.</p>
-                    <p><strong>Service philosophy:</strong> We treat every guest like family. Hospitality is at the heart of everything we do.</p>
-                </div>
-                <div>
-                    <img src="../images/dining-philosophy.jpg" alt="Casita Miro dining experience" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Fiesta Menu -->
-    <section id="menu" class="bg-light">
-        <div class="container">
-            <h3>Fiesta Menu</h3>
-            <p>Our signature 3-course tasting menu, featuring seasonal Spanish cuisine and exceptional ingredient sourcing.</p>
-
-            <div style="margin-top: 3rem;">
-                <h4 style="color: var(--primary-red);">First Course</h4>
-                <div style="margin-bottom: 2rem;">
-                    <h5 style="margin-bottom: 0.5rem;">Jamon Ibérico & Burrata</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><em>Spanish cured ham, creamy burrata, heirloom tomatoes, aged balsamic</em></p>
-                    <p style="margin: 0;">Sourced from a family bodega in Andalusia, our Jamon represents 36 months of tradition and expertise.</p>
-                </div>
-
-                <div style="margin-bottom: 2rem;">
-                    <h5 style="margin-bottom: 0.5rem;">Espuma of Local Mushroom</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><em>Wild mushrooms from Waiheke, white truffle oil, crispy bread</em></p>
-                    <p style="margin: 0;">A celebration of autumn produce paired with Spanish olive oil from our estate vineyard region.</p>
-                </div>
-
-                <h4 style="color: var(--primary-red); margin-top: 2rem;">Main Course</h4>
-                <div style="margin-bottom: 2rem;">
-                    <h5 style="margin-bottom: 0.5rem;">Pan-Seared Snapper with Romesco</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><em>Fresh local snapper, red pepper & almond sauce, seasonal vegetables</em></p>
-                    <p style="margin: 0;">Romesco—a Spanish classic from Catalonia. Our version uses red peppers from Waiheke organic farms.</p>
-                </div>
-
-                <div style="margin-bottom: 2rem;">
-                    <h5 style="margin-bottom: 0.5rem;">Slow-Roasted Lamb Shoulder</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><em>Free-range lamb, saffron rice, piquant olive tapenade</em></p>
-                    <p style="margin: 0;">Cooked low-and-slow for 8 hours. Served with our house-made Spanish spices and finishing salt.</p>
-                </div>
-
-                <h4 style="color: var(--primary-red); margin-top: 2rem;">Dessert</h4>
-                <div style="margin-bottom: 2rem;">
-                    <h5 style="margin-bottom: 0.5rem;">Torrijas (Spanish Cinnamon French Toast)</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><em>Brioche, cinnamon custard, dulce de leche, toasted almonds</em></p>
-                    <p style="margin: 0;">A Spanish Easter tradition served year-round. Pan-fried and served warm with a dusting of cinnamon.</p>
-                </div>
-
-                <div style="margin-bottom: 2rem;">
-                    <h5 style="margin-bottom: 0.5rem;">Chocolate & Churro</h5>
-                    <p style="color: #666; margin-bottom: 0.5rem;"><em>Dark Spanish chocolate, fried dough, sea salt</em></p>
-                    <p style="margin: 0;">Our take on Madrid's beloved churrerías. Rich chocolate and crispy pastry—simple and perfect.</p>
-                </div>
-            </div>
-
-            <div style="background-color: white; padding: 2rem; border-radius: 8px; margin-top: 3rem;">
-                <p><strong>Price:</strong> NZD $185 per person | <strong>Wine pairing:</strong> NZD $85 (5 wines selected by Barnett)</p>
-                <p style="margin-bottom: 0;"><strong>Dietary requirements:</strong> We accommodate vegetarian, vegan, and allergy-free menus. Please notify when booking.</p>
-            </div>
-
-            <div style="text-align: center; margin-top: 2rem;">
-                <a href="#book" class="btn btn-primary">Book Your Fiesta</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Cellar Door -->
-    <section>
-        <div class="container">
-            <div class="grid-2">
-                <div>
-                    <img src="../images/cellar-door.jpg" alt="Casual Cellar Door experience" loading="lazy">
-                </div>
-                <div>
-                    <h3>Cellar Door</h3>
-                    <p>Our casual, walk-in friendly experience. Enjoy tapas, local wines by the glass, and the relaxed vibe that makes Waiheke special.</p>
-
-                    <h4 style="color: var(--primary-red); margin-top: 2rem;">Why Visit Cellar Door</h4>
-                    <ul style="list-style: none; padding: 0;">
-                        <li style="margin-bottom: 1rem;">✓ <strong>Walk-ins welcome</strong> – no booking required</li>
-                        <li style="margin-bottom: 1rem;">✓ <strong>Tapas menu</strong> – perfect for sharing, NZD $12-28 per plate</li>
-                        <li style="margin-bottom: 1rem;">✓ <strong>Wine by the glass</strong> – taste Miro estate wines and Spanish imports</li>
-                        <li style="margin-bottom: 1rem;">✓ <strong>Outdoor seating</strong> – covered area for year-round comfort</li>
-                        <li style="margin-bottom: 1rem;">✓ <strong>Long lunches</strong> – perfect for friends, family, dates</li>
-                    </ul>
-
-                    <h4 style="color: var(--primary-red); margin-top: 2rem;">Hours</h4>
-                    <p>
-                        <strong>Summer (Nov-Mar):</strong> Thu-Sun, 12:00 PM - 10:00 PM<br>
-                        <strong>Autumn-Spring (Apr-Oct):</strong> Fri-Sun, 12:00 PM - 10:00 PM<br>
-                        <em>Closed Mondays. Seasonal closures in winter.</em>
-                    </p>
-
-                    <a href="#book" class="btn btn-secondary" style="margin-top: 1rem;">Reserve a Spot</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Book a Table -->
-    <section id="book" class="bg-light">
-        <div class="container">
-            <h3 style="text-align: center; margin-bottom: 2rem;">Book a Table</h3>
-            
-            <div style="max-width: 600px; margin: 0 auto; background-color: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow-medium);">
-                <form id="bookingForm">
-                    <div style="margin-bottom: 1.5rem;">
-                        <label for="name" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Name *</label>
-                        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
+    <!-- Main Content -->
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-text">
+                        <h2>Seasonal, Fresh, Authentic</h2>
+                        <p>Every dish at Casita Miro begins in our organic gardens, where we cultivate fresh herbs, vegetables, and citrus year-round. Each morning, our kitchen team harvests the day's ingredients — guaranteeing maximum freshness and flavor.</p>
+                        <p>We combine New Zealand's bounty with direct imports from Spain's finest bodegas and artisanal producers. The result is a menu that honors Spanish tradition while celebrating local terroir.</p>
+                        <p>Our Gaudí-inspired mosaic bar — a stunning focal point in the restaurant — sets the stage for intimate conversations and unforgettable moments.</p>
                     </div>
-
-                    <div style="margin-bottom: 1.5rem;">
-                        <label for="email" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Email *</label>
-                        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
+                    <div class="split-media">
+                        <img src="../images/dish-2.jpg" alt="Farm-fresh Spanish cuisine" loading="lazy">
                     </div>
-
-                    <div style="margin-bottom: 1.5rem;">
-                        <label for="phone" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Phone *</label>
-                        <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                    </div>
-
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
-                        <div>
-                            <label for="date" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Date *</label>
-                            <input type="date" id="date" name="date" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                        </div>
-                        <div>
-                            <label for="time" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Time *</label>
-                            <input type="time" id="time" name="time" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                        </div>
-                    </div>
-
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
-                        <div>
-                            <label for="guests" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Number of Guests *</label>
-                            <select id="guests" name="guests" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                                <option value="">Select</option>
-                                <option value="2">2 guests</option>
-                                <option value="3">3 guests</option>
-                                <option value="4">4 guests</option>
-                                <option value="5">5 guests</option>
-                                <option value="6">6 guests</option>
-                                <option value="7">7 guests</option>
-                                <option value="8">8+ guests</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="experience" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Experience *</label>
-                            <select id="experience" name="experience" required style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans);">
-                                <option value="">Select</option>
-                                <option value="fiesta">Fiesta Menu (3-course)</option>
-                                <option value="cellar">Cellar Door (Tapas)</option>
-                                <option value="private">Private Event</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div style="margin-bottom: 1.5rem;">
-                        <label for="requests" style="display: block; font-weight: 600; margin-bottom: 0.5rem;">Special Requests or Dietary Requirements</label>
-                        <textarea id="requests" name="requests" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 4px; font-family: var(--font-sans); min-height: 100px; resize: vertical;"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 1rem;">Request Reservation</button>
-                    <p style="font-size: 0.9rem; color: #666; margin: 0;">We'll confirm your booking within 2 hours.</p>
-                </form>
+                </div>
             </div>
+        </section>
 
-            <div style="max-width: 600px; margin: 3rem auto 0; text-align: center; background-color: var(--cream); padding: 2rem; border-radius: 8px;">
-                <h4>Prefer to Call?</h4>
-                <p>
-                    <a href="tel:+64-9-372-5025" style="font-size: 1.25rem; font-weight: 600; color: var(--primary-red);">+64 9 372 5025</a>
-                </p>
-                <p style="margin: 0; color: #666;">Available Thu-Sun during service hours</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Parking & Location -->
-    <section>
-        <div class="container">
-            <h3 style="text-align: center; margin-bottom: 2rem;">Parking & Location</h3>
-            
-            <div class="grid-2">
-                <div>
-                    <h4>Find Us</h4>
-                    <p>
-                        <strong>3 Brown Road</strong><br>
+        <section class="page-section dark-section">
+            <div class="container">
+                <h2 style="text-align: center; color: white; margin-bottom: 3rem;">Hours & Location</h2>
+                <div class="grid-2">
+                    <div>
+                        <h3 style="color: #D32F2F;">Hours of Operation</h3>
+                        <p>Wednesday – Sunday: 11am – 5pm<br>
+                        Thursday – Saturday: 5:30pm – 10:30pm<br>
+                        Closed Mondays & Tuesdays</p>
+                        <p style="margin-top: 1.5rem;"><strong>Cellar Door & Shop:</strong><br>
+                        Same hours as restaurant dining</p>
+                    </div>
+                    <div>
+                        <h3 style="color: #D32F2F;">Getting Here</h3>
+                        <p>3 Brown Road<br>
                         Onetangi, Waiheke Island 1081<br>
-                        New Zealand
-                    </p>
-
-                    <h4 style="margin-top: 1.5rem;">Parking</h4>
-                    <p>Free onsite parking available. We have accessible parking for guests with mobility requirements.</p>
-
-                    <h4 style="margin-top: 1.5rem;">From the Ferry</h4>
-                    <ul style="list-style: none; padding: 0;">
-                        <li style="margin-bottom: 0.5rem;">• Ferry to Waiheke Island Terminal (~40 min from Auckland)</li>
-                        <li style="margin-bottom: 0.5rem;">• Rent a car or take a taxi from terminal</li>
-                        <li>• 15 minutes drive to Casita Miro</li>
-                    </ul>
-
-                    <h4 style="margin-top: 1.5rem;">Accessibility</h4>
-                    <p>Wheelchair accessible parking and entry. Please contact us if you have specific accessibility needs.</p>
+                        New Zealand</p>
+                        <p style="margin-top: 1.5rem;"><strong>Phone:</strong> (09) 372 7854<br>
+                        <strong>Email:</strong> cmenquiries@outlook.com</p>
+                    </div>
                 </div>
-                <div>
-                    <iframe src="https://maps.google.com/maps?q=3%20Brown%20Road%20Onetangi%20Waiheke&t=m&z=15&output=embed" width="100%" height="400" style="border: none; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div style="margin-top: 3rem; text-align: center;">
+                    <p style="color: #aaa; font-size: 0.95rem;">Ample parking available on-site</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
+        <section class="page-section">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 3rem;">Reserve Your Table</h2>
+                <div style="max-width: 600px; margin: 0 auto;">
+                    <form class="contact-form" id="dining-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Time</option>
+                                <option value="lunch">Lunch (11am - 2pm)</option>
+                                <option value="dinner">Dinner (5:30pm - 10:30pm)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Number of Guests</option>
+                                <option value="2">2 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="8">8 Guests</option>
+                                <option value="10+">10+ Guests</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1.5rem;">Request Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
             <div class="footer-grid">
-                <div class="footer-section">
+                <div>
+                    <h4>Casita Miro</h4>
+                    <p>Award-winning Spanish restaurant & vineyard on Waiheke Island</p>
+                </div>
+                <div>
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="dining.html">Dining</a></li>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="wine.html">Wine</a></li>
                         <li><a href="shop.html">Shop</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
+                <div>
                     <h4>Contact</h4>
-                    <p>
-                        <strong>Phone:</strong> +64 9 372 5025<br>
-                        <strong>Email:</strong> hello@casitamiro.co.nz<br>
-                        <strong>Address:</strong> 3 Brown Road, Onetangi, Waiheke Island 1081
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Hours</h4>
-                    <p>
-                        <strong>Summer (Nov-Mar):</strong> Thu-Sun 12-10 PM<br>
-                        <strong>Autumn-Spring (Apr-Oct):</strong> Fri-Sun 12-10 PM<br>
-                        <em>Closed Mondays</em>
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <div class="social-icons">
-                        <a href="https://instagram.com/casitamiro" target="_blank" aria-label="Instagram">📷</a>
-                        <a href="https://facebook.com/casitamiro" target="_blank" aria-label="Facebook">f</a>
-                        <a href="https://tripadvisor.com" target="_blank" aria-label="TripAdvisor">✓</a>
-                    </div>
+                    <p>(09) 372 7854<br>
+                    cmenquiries@outlook.com<br>
+                    3 Brown Road, Onetangi<br>
+                    Waiheke Island 1081</p>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Casita Miro. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a> | <a href="contact.html">Contact</a>
-                </div>
             </div>
         </div>
     </footer>

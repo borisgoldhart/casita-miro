@@ -3,247 +3,281 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casita Miro | Award-Winning Spanish Restaurant & Vineyard, Waiheke Island</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Casita Miro | Spanish Restaurant & Vineyard — Waiheke Island</title>
+    <meta name="description" content="Award-winning Spanish restaurant, estate vineyard & cellar door on Waiheke Island, New Zealand. Farm-to-table dining, artisan wines, and unforgettable experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
     <!-- ================================================================
-         HEADER & NAVIGATION
+         NAVIGATION — Minimal, transparent, confident
          ================================================================ -->
-    <header>
+    <header id="site-header">
         <nav>
-            <div>
-                <img src="images/logo-casita-miro.png" alt="Casita Miro" class="logo-img">
-            </div>
-            <ul id="nav-menu">
+            <a href="#" class="nav-logo">
+                <img src="images/logo-casita-miro.png" alt="Casita Miro" loading="eager">
+            </a>
+
+            <ul id="nav-menu" class="nav-links">
                 <li><a href="#dining">Dining</a></li>
-                <li><a href="#wine">Wine</a></li>
+                <li><a href="#vineyard">Vineyard</a></li>
                 <li><a href="#shop">Shop</a></li>
                 <li><a href="#events">Events</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="pages/contact.html" class="nav-cta">Reserve</a></li>
             </ul>
-            <button class="mobile-menu-toggle" id="menu-toggle">☰</button>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
     <!-- ================================================================
-         HERO - Full Page Background Image
+         HERO — Immersive, full-viewport, cinematic
          ================================================================ -->
-    <section class="hero">
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/hero-vineyard-ocean.jpg" alt="Vineyard overlooking the ocean on Waiheke Island" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>A Must-Go Destination</h1>
-            <p>Award-winning Spanish restaurant, estate vineyard & cellar door on Waiheke Island</p>
-            <a href="pages/contact.html" class="cta-button">Reserve a Table</a>
-        </div>
-    </section>
-
-    <!-- ================================================================
-         EXPERIENCE GRID - 4 Card Features
-         ================================================================ -->
-    <section class="light">
-        <div class="section-container">
-            <h2 class="text-center">Our World</h2>
-            <div class="experience-grid">
-                <!-- Dining -->
-                <div class="experience-card">
-                    <div class="experience-card-bg" style="background-image: url('images/dish-1.jpg');"></div>
-                    <div class="experience-card-overlay">
-                        <h3>Dining</h3>
-                        <p>Farm-to-table Spanish cuisine with fresh produce from our organic gardens</p>
-                    </div>
-                </div>
-
-                <!-- Wine -->
-                <div class="experience-card">
-                    <div class="experience-card-bg" style="background-image: url('images/wine-bottles.jpg');"></div>
-                    <div class="experience-card-overlay">
-                        <h3>Vineyard</h3>
-                        <p>4.2 hectares of estate vineyards producing award-winning wines</p>
-                    </div>
-                </div>
-
-                <!-- Shop -->
-                <div class="experience-card">
-                    <div class="experience-card-bg" style="background-image: url('images/product-olive-oil.jpg');"></div>
-                    <div class="experience-card-overlay">
-                        <h3>Artisan Products</h3>
-                        <p>Spanish imports, house-made condiments & exclusive Madame Rouge aperitif</p>
-                    </div>
-                </div>
-
-                <!-- Events -->
-                <div class="experience-card">
-                    <div class="experience-card-bg" style="background-image: url('images/dish-2.jpg');"></div>
-                    <div class="experience-card-overlay">
-                        <h3>Celebrations</h3>
-                        <p>Intimate wine releases, chef's dinners & unforgettable events</p>
-                    </div>
-                </div>
+            <span class="hero-tag">Waiheke Island, New Zealand</span>
+            <h1>Taste the<br>Longing</h1>
+            <p class="hero-sub">Where tradition becomes ritual. Where Spanish passion meets island terroir.</p>
+            <div class="hero-actions">
+                <a href="pages/contact.html" class="btn btn-primary">Reserve a Table</a>
+                <a href="#dining" class="btn btn-ghost">Explore</a>
             </div>
         </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
     </section>
 
     <!-- ================================================================
-         AWARDS & RECOGNITION
+         STATEMENT — Bold typographic statement on red
          ================================================================ -->
-    <section class="dark">
-        <div class="section-container">
-            <div class="feature-row">
-                <div class="feature-image">
-                    <img src="images/team-photo.jpg" alt="Casita Miro team" loading="lazy">
-                </div>
-                <div class="feature-text">
-                    <h2>13 Years of Excellence</h2>
-                    <p>TripAdvisor Traveller's Choice award winner for 13 consecutive years. Ranked #1 in Onetangi, celebrated by Cuisine Magazine, and recognized as an iconic Auckland establishment.</p>
-                    <div class="awards-list">
-                        <div class="award">
-                            <span class="award-year">2011-2024</span>
-                            <span class="award-name">TripAdvisor Traveller's Choice</span>
+    <section class="statement">
+        <div class="container">
+            <blockquote>
+                <p>Three things make us extraordinary — <em>our vineyard, our gardens, our Spanish soul.</em></p>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         DINING — Asymmetric image/text layout
+         ================================================================ -->
+    <section class="section-dining" id="dining">
+        <div class="container">
+            <div class="split-layout">
+                <div class="split-media">
+                    <div class="media-stack">
+                        <div class="media-main" data-reveal>
+                            <img src="images/dish-1.jpg" alt="Spanish cuisine at Casita Miro" loading="lazy">
                         </div>
-                        <div class="award">
-                            <span class="award-year">2025</span>
-                            <span class="award-name">Iconic Eats Top 100</span>
+                        <div class="media-accent" data-reveal>
+                            <img src="images/dish-2.jpg" alt="Farm-to-table dish" loading="lazy">
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================================
-         STORY - Full Background Image Section
-         ================================================================ -->
-    <section class="with-bg light" style="background-image: url('images/hero-vineyard-ocean.jpg');">
-        <div class="section-container">
-            <h2 style="color: white; text-shadow: 1px 1px 4px rgba(0,0,0,0.3);">A Spanish Dream on Waiheke</h2>
-            <div style="max-width: 600px; color: rgba(255,255,255,0.95); font-size: 1.1rem;">
-                <p>Three things make Casita Miro extraordinary. First, we make our own award-winning wines from our 4.2-hectare vineyard—a complete control over our terroir and craft. Second, we grow our own fresh produce in organic gardens, harvesting daily for our menus. Third, we source the best-of-best Spanish ingredients directly from Spain's renowned bodegas and artisanal producers.</p>
-                <p>It's not just a restaurant. It's a complete world of Spanish culture, food, wine, and hospitality on one stunning Waiheke property.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================================================================
-         FEATURED EVENT
-         ================================================================ -->
-    <section class="light">
-        <div class="section-container">
-            <div class="feature-row reverse">
-                <div class="feature-image">
-                    <img src="images/wine-bottles.jpg" alt="Wine releases and events" loading="lazy">
-                </div>
-                <div class="feature-text">
-                    <h2>Wine Releases & Events</h2>
-                    <p>Join us for seasonal wine releases, chef's dinners, and exclusive wine club tastings. Experience our vineyard from the restaurant's Gaudi-inspired mosaic bar, where wine and food create magic.</p>
-                    <a href="pages/events.html" class="cta-button">View Events</a>
+                <div class="split-text" data-reveal>
+                    <span class="section-label">01 — Dining</span>
+                    <h2>Farm to Table,<br>Soul to Plate</h2>
+                    <p>Every dish begins in our organic gardens, harvested fresh each morning. We source the finest ingredients directly from Spain's renowned bodegas and artisanal producers — marrying New Zealand terroir with authentic Spanish tradition.</p>
+                    <p>Our Gaudí-inspired mosaic bar sets the stage for a dining experience that is intimate, passionate, and unforgettable.</p>
+                    <a href="pages/dining.html" class="link-arrow">View the Menu <span>→</span></a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ================================================================
-         INSTAGRAM GRID
+         VINEYARD — Full-width parallax with overlaid content
          ================================================================ -->
-    <section class="instagram-section">
-        <div class="section-container">
-            <h2 style="text-align: center; color: white;">Follow Our Story</h2>
-            <div class="instagram-grid">
-                <div class="instagram-item">
-                    <img src="images/dish-1.jpg" alt="Spanish cuisine" loading="lazy">
-                    <span class="instagram-icon">📸</span>
+    <section class="section-vineyard" id="vineyard">
+        <div class="vineyard-bg" data-parallax>
+            <img src="images/hero-vineyard-ocean.jpg" alt="Miro Vineyard, Waiheke Island" loading="lazy">
+        </div>
+        <div class="vineyard-overlay"></div>
+        <div class="container vineyard-content">
+            <div class="vineyard-grid">
+                <div class="vineyard-text" data-reveal>
+                    <span class="section-label section-label--light">02 — Vineyard</span>
+                    <h2>4.2 Hectares of<br>Waiheke Terroir</h2>
+                    <p>Our estate vineyard produces award-winning wines that express the unique character of Waiheke Island. From vine to glass, every bottle tells the story of this extraordinary land.</p>
+                    <a href="pages/wine.html" class="link-arrow link-arrow--light">Discover Our Wines <span>→</span></a>
                 </div>
-                <div class="instagram-item">
-                    <img src="images/wine-bottles.jpg" alt="Miro Vineyard wines" loading="lazy">
-                    <span class="instagram-icon">📸</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/dish-2.jpg" alt="Fine dining experience" loading="lazy">
-                    <span class="instagram-icon">📸</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/product-olive-oil.jpg" alt="Artisan products" loading="lazy">
-                    <span class="instagram-icon">📸</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/hero-vineyard-ocean.jpg" alt="Vineyard views" loading="lazy">
-                    <span class="instagram-icon">📸</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/team-photo.jpg" alt="Our team" loading="lazy">
-                    <span class="instagram-icon">📸</span>
+                <div class="vineyard-stats" data-reveal>
+                    <div class="stat">
+                        <span class="stat-number">13</span>
+                        <span class="stat-label">Years TripAdvisor<br>Traveller's Choice</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.2</span>
+                        <span class="stat-label">Hectares of<br>Estate Vineyard</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ================================================================
-         NEWSLETTER SIGNUP
+         WINE — Product showcase with dramatic composition
          ================================================================ -->
-    <section class="light">
-        <div class="section-container text-center">
-            <h2>Stay Connected</h2>
-            <p>Get updates on wine releases, seasonal menus, and exclusive events</p>
-            <div class="newsletter-container">
+    <section class="section-wine">
+        <div class="container">
+            <div class="split-layout split-layout--reverse">
+                <div class="split-media">
+                    <div class="media-solo" data-reveal>
+                        <img src="images/wine-bottles.jpg" alt="Miro Vineyard wine selection" loading="lazy">
+                    </div>
+                </div>
+                <div class="split-text" data-reveal>
+                    <span class="section-label">03 — Wine</span>
+                    <h2>Made Here,<br>Loved Everywhere</h2>
+                    <p>From our celebrated Syrah to our elegant Rosé, each vintage captures the warmth of the island sun and the salt-kissed coastal breeze. Join our Wine Club for exclusive releases, cellar door tastings, and behind-the-scenes vineyard experiences.</p>
+                    <a href="pages/wine.html" class="link-arrow">Wine Club & Tastings <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         SHOP — Bold red section with product feature
+         ================================================================ -->
+    <section class="section-shop" id="shop">
+        <div class="container">
+            <div class="shop-layout">
+                <div class="shop-text" data-reveal>
+                    <span class="section-label section-label--on-red">04 — Shop</span>
+                    <h2>A Taste<br>of Spain,<br>to Take Home</h2>
+                    <p>Our cellar door shop is stocked with hand-selected Spanish imports, house-made condiments, our exclusive Madame Rouge aperitif, and estate-bottled olive oil. Every product is chosen with the same passion we bring to the table.</p>
+                    <a href="pages/shop.html" class="link-arrow link-arrow--on-red">Browse Products <span>→</span></a>
+                </div>
+                <div class="shop-media" data-reveal>
+                    <div class="shop-image-main">
+                        <img src="images/product-olive-oil.jpg" alt="Artisan olive oil and Spanish products" loading="lazy">
+                    </div>
+                    <div class="shop-image-small">
+                        <img src="images/product-small.jpg" alt="Casita Miro products" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         EVENTS — Cinematic section
+         ================================================================ -->
+    <section class="section-events" id="events">
+        <div class="container">
+            <div class="events-layout">
+                <div class="events-text" data-reveal>
+                    <span class="section-label">05 — Events</span>
+                    <h2>Intimate Gatherings,<br>Extraordinary Moments</h2>
+                    <p>From seasonal wine releases and chef's dinners to private celebrations, every event at Casita Miro is crafted with care. Our vineyard setting and passionate hospitality create memories that linger long after the last glass.</p>
+                    <a href="pages/events.html" class="link-arrow">Upcoming Events <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         STORY — Team/founders with emotional storytelling
+         ================================================================ -->
+    <section class="section-story" id="story">
+        <div class="container">
+            <div class="split-layout">
+                <div class="split-media">
+                    <div class="media-solo media-solo--portrait" data-reveal>
+                        <img src="images/team-photo.jpg" alt="The team behind Casita Miro" loading="lazy">
+                    </div>
+                </div>
+                <div class="split-text" data-reveal>
+                    <span class="section-label">06 — Our Story</span>
+                    <h2>A Spanish Dream<br>on Waiheke</h2>
+                    <p>What began as a love letter to Spanish culture has grown into one of New Zealand's most celebrated dining destinations. Our vineyard, our gardens, our kitchen — everything exists to honour the Spanish tradition of gathering around a table with people you love.</p>
+                    <p>We don't just serve food and wine. We create a world — one where the warmth of Spain meets the beauty of Waiheke Island, and every guest becomes part of the story.</p>
+                    <a href="pages/about.html" class="link-arrow">Read Our Story <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         NEWSLETTER — Clean, confident sign-up
+         ================================================================ -->
+    <section class="section-newsletter">
+        <div class="container">
+            <div class="newsletter-layout" data-reveal>
+                <div class="newsletter-text">
+                    <h2>Stay Close</h2>
+                    <p>Wine releases, seasonal menus, and stories from the vineyard — delivered to your inbox.</p>
+                </div>
                 <form class="newsletter-form" id="newsletter-form">
-                    <input type="email" placeholder="Your email address" required>
-                    <button type="submit">Subscribe</button>
+                    <div class="form-row">
+                        <input type="email" placeholder="Your email" required aria-label="Email address">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
                 </form>
             </div>
         </div>
     </section>
 
     <!-- ================================================================
-         FOOTER
+         FOOTER — Warm, complete, well-structured
          ================================================================ -->
     <footer>
-        <div class="footer-grid">
-            <div class="footer-section">
-                <h4>Dining</h4>
-                <ul>
-                    <li><a href="pages/dining.html">Menu</a></li>
-                    <li><a href="pages/dining.html">Cellar Door</a></li>
-                    <li><a href="pages/contact.html">Reservations</a></li>
-                    <li><a href="pages/dining.html">Parking</a></li>
-                </ul>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="images/rfs-hand-logo.png" alt="Casita Miro" class="footer-logo" loading="lazy">
+                    <p class="footer-tagline">Award-winning Spanish restaurant &amp; vineyard on Waiheke Island, New Zealand.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Experience</h4>
+                        <ul>
+                            <li><a href="pages/dining.html">Dining</a></li>
+                            <li><a href="pages/wine.html">Vineyard & Wine</a></li>
+                            <li><a href="pages/shop.html">Shop</a></li>
+                            <li><a href="pages/events.html">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Visit</h4>
+                        <ul>
+                            <li><a href="pages/contact.html">Reservations</a></li>
+                            <li><a href="pages/about.html">Our Story</a></li>
+                            <li><a href="pages/contact.html">Contact</a></li>
+                            <li><a href="pages/privacy.html">Privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Find Us</h4>
+                        <address>
+                            3 Brown Road, Onetangi<br>
+                            Waiheke Island 1081<br>
+                            New Zealand<br><br>
+                            <a href="tel:+6493727854">(09) 372 7854</a><br>
+                            <a href="mailto:cmenquiries@outlook.com">cmenquiries@outlook.com</a>
+                        </address>
+                    </div>
+                </div>
             </div>
-            <div class="footer-section">
-                <h4>Wine</h4>
-                <ul>
-                    <li><a href="pages/wine.html">Vineyard Story</a></li>
-                    <li><a href="pages/wine.html">Wine Selection</a></li>
-                    <li><a href="pages/wine.html">Wine Club</a></li>
-                    <li><a href="pages/wine.html">Tastings</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Casita Miro. All rights reserved.</p>
             </div>
-            <div class="footer-section">
-                <h4>Shop</h4>
-                <ul>
-                    <li><a href="pages/shop.html">Products</a></li>
-                    <li><a href="pages/shop.html">Madame Rouge</a></li>
-                    <li><a href="pages/shop.html">Spanish Imports</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="pages/about.html">About Us</a></li>
-                    <li><a href="pages/events.html">Events</a></li>
-                    <li><a href="pages/contact.html">Contact</a></li>
-                    <li><a href="pages/privacy.html">Privacy Policy</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Casita Miro. Award-winning Spanish restaurant & vineyard on Waiheke Island, New Zealand.</p>
-            <p><strong>Contact:</strong> (09) 372 7854 | cmenquiries@outlook.com | 3 Brown Road, Onetangi, Waiheke Island 1081</p>
         </div>
     </footer>
 
-    <!-- ================================================================
-         SCRIPTS
-         ================================================================ -->
     <script src="js/main.js"></script>
 </body>
 </html>
