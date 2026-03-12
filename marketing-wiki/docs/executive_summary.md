@@ -6,30 +6,30 @@
 
 ## Growth Opportunities
 
-Casita Miro is an award-winning Spanish restaurant, vineyard, and artisan food producer positioned to unlock three distinct revenue streams. Cat (owner) has identified three strategic growth areas:
+Casita Miro is an award-winning Spanish restaurant, vineyard, and artisan food producer with exceptional foundations already in place. Three strategic opportunities are ready to build on this success:
 
-1. **Increase winter revenue** — Waiheke Island attracts visitors year-round; targeted promotion, seasonal menus, and event programming can drive bookings during quieter months
-2. **Increase wine bottle sales** — Guests already love the wine by the glass; with staff training, pairing prompts, and confidence, take-home bottle purchases are a natural next step
-3. **Increase product sales** — Artisan foods (olive oil, olives, honey, pesto) are produced on-site; expanding reach through both the on-site shop and an online store opens new customers year-round
+1. **Grow winter bookings** — Waiheke Island draws food lovers and wine enthusiasts year-round; curated winter events, seasonal menus, and targeted marketing can turn the cooler months into a vibrant dining season
+2. **Upsell wine bottles to dining guests** — Visitors already enjoy the wine by the glass; empowering staff with confidence, storytelling, and pairing knowledge transforms appreciation into bottle purchases they take home
+3. **Expand product reach** — Artisan foods (olive oil, olives, honey, pesto) are already produced on-site; an online shop and optimized retail space make these products accessible to customers everywhere
 
 ---
 
 ## The Opportunity
 
-With strategic marketing, Casita Miro can build three interlocking revenue streams:
+Smart marketing and operational focus unlock three powerful revenue streams:
 
-### 1. **Restaurant (Year-Round with Events)**
-- Premium Fiesta menu ($85-110/person)
-- Casual cellar door ($15-40/person)
-- Winter event programming (chef's dinners, corporate team-building, celebrations)
-- **Target:** Winter revenue = 60% of summer (vs. current 40-50%)
+### 1. **Restaurant — Vibrant Year-Round Destination**
+- Premium Fiesta menu ($85-110/person) and casual cellar door ($15-40/person) already draw strong summer crowds
+- Winter presents a fresh canvas: chef's dinners, corporate experiences, wine-pairing events, and seasonal celebrations
+- Strategic promotion positions Casita Miro as *the* year-round destination on Waiheke
+- **Target:** Winter bookings reach 60% of summer levels (from current 40-50%) — achievable with targeted campaigns and event programming
 
-### 2. **Wine (Bottle Sales + Staff Training)**
-- Train front-of-house staff to confidently recommend and upsell bottles at the table
-- Create wine-pairing prompts and tasting notes for every menu item
-- Offer "take home" incentives (e.g., 10% off a bottle with dinner)
-- Build a curated wine list that tells the vineyard story and encourages purchase
-- **Target:** Bottle-to-guest conversion rate from <5% to 20%+; wine revenue = 25-30% of total
+### 2. **Wine — Upsell Bottles to Dining Guests**
+- Guests already love the wine; many simply don't realize they can purchase bottles to take home
+- Staff training equips the team to confidently suggest pairings, share vineyard stories, and recommend bottles
+- Simple prompts at the table ("This Tempranillo pairs beautifully—would you like a bottle to take home?") drive conversion
+- Take-home incentives (e.g., 10% off with dinner) turn appreciation into action
+- **Target:** Increase bottle-to-guest conversion from 5% to 20%+; grow wine to 25-30% of total revenue
 
 ### 3. **Products (On-Site Shop + Online Store)**
 - Optimize on-site shop experience for walk-in visitors and diners
