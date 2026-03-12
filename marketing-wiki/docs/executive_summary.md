@@ -8,9 +8,9 @@
 
 Casita Miro is an award-winning Spanish restaurant, vineyard, and artisan food producer with a powerful brand but underdeveloped revenue potential. Cat (owner) has identified three core business challenges:
 
-1. **Winter slow season** — Revenue dips 50-60% Nov-March despite global tourism peak
-2. **Untapped product sales** — Artisan foods (olive oil, olives, honey) sold only locally; no retail/e-commerce
-3. **Underdeveloped wine business** — No wine club, limited retail, minimal online presence
+1. **Winter slow season** — Revenue dips significantly during the cooler months, with fewer bookings and lower foot traffic despite year-round tourism potential on Waiheke Island
+2. **Up-sell bottles of wine to customers** — Guests enjoy wine by the glass but rarely purchase bottles to take home; staff need training and confidence to recommend and close bottle sales at the table
+3. **Grow product sales through online shop** — Artisan foods (olive oil, olives, honey, pesto) are produced on-site but currently sold only to walk-in visitors; no e-commerce channel exists to reach a wider audience
 
 ---
 
@@ -24,18 +24,19 @@ With strategic marketing, Casita Miro can build three interlocking revenue strea
 - Winter event programming (chef's dinners, corporate team-building, celebrations)
 - **Target:** Winter revenue = 60% of summer (vs. current 40-50%)
 
-### 2. **Wine (Club + Retail + E-Commerce)**
-- Wine club (3 tiers: $75, $150, $250/quarter)
-- Curated wine shop + e-commerce
-- Sommelier-led education and content
-- International shipping and marketing
-- **Target:** Wine revenue = 25-30% of total (vs. current ~15%)
+### 2. **Wine (Bottle Sales + Staff Training)**
+- Train front-of-house staff to confidently recommend and upsell bottles at the table
+- Create wine-pairing prompts and tasting notes for every menu item
+- Offer "take home" incentives (e.g., 10% off a bottle with dinner)
+- Build a curated wine list that tells the vineyard story and encourages purchase
+- **Target:** Bottle-to-guest conversion rate from <5% to 20%+; wine revenue = 25-30% of total
 
-### 3. **Products (Oils, Olives, Honey, Merch)**
-- Scale artisan foods to national retail and online
-- Gift sets and subscription boxes
-- Branded merchandise (ceramics, glassware, cookbooks)
-- **Target:** Product revenue = 15-20% of total (vs. current <5%)
+### 3. **Products (Online Shop + E-Commerce)**
+- Launch an online shop for artisan foods (olive oil, olives, honey, pesto)
+- Curated gift sets and seasonal bundles for gifting occasions
+- Integrate shop with website, email marketing, and social media
+- Leverage restaurant guests as first customers (QR codes on tables, receipts, packaging)
+- **Target:** Product revenue = 15-20% of total (vs. current <5%); online orders within 6 months
 
 ---
 
@@ -48,13 +49,13 @@ With strategic marketing, Casita Miro can build three interlocking revenue strea
 | Action | Impact | Timeline |
 |--------|--------|----------|
 | **Website redesign** | Drive discovery, e-commerce, bookings | Q1-Q2 |
-| **Wine club launch** | Recurring revenue, customer loyalty | Q1-Q2 |
+| **Wine upsell program + staff training** | Higher per-table spend, bottle sales | Q1-Q2 |
 | **Social media strategy** | Brand awareness, engagement, influencer reach | Ongoing |
 | **Email marketing** | Nurture, retention, sales | Ongoing |
 | **Content marketing** | SEO, authority, organic traffic | Q2+ |
 | **Paid advertising** | Traffic, conversion, awareness | Q2+ |
 | **Event programming** | Winter revenue, brand experience | Q3 (winter focus) |
-| **Product retail partnerships** | National distribution, product revenue | Q3 |
+| **Online shop launch** | E-commerce revenue, wider product reach | Q2-Q3 |
 | **Influencer partnerships** | Credibility, reach, earned media | Ongoing |
 
 ---
@@ -66,7 +67,7 @@ With strategic marketing, Casita Miro can build three interlocking revenue strea
 | **Winter Revenue** | 40-50% of summer | 60% of summer | +20-25% annual revenue |
 | **Wine Revenue** | ~15% of total | 25-30% of total | +10-15% revenue growth |
 | **Product Revenue** | <5% of total | 15-20% of total | +10-20% revenue growth |
-| **Wine Club Members** | 0 | 100+ | $10,000+/month recurring |
+| **Bottle Sales (per table)** | <5% conversion | 20%+ conversion | Significant per-cover uplift |
 | **Email Subscribers** | ~100 | 1,000+ | 10x bigger audience |
 | **Social Followers** | Unknown | 5,000+ | 5,000 new customers |
 | **Total Revenue Uplift** | — | — | **+40-60% potential** |
@@ -75,11 +76,11 @@ With strategic marketing, Casita Miro can build three interlocking revenue strea
 
 ## Quick Win Priorities (Next 90 Days)
 
-1. **Website redesign** — Launch with restaurant booking, wine club, product shop
-2. **Wine club** — Begin sales (instant recurring revenue)
-3. **Email marketing** — Segment list, launch newsletter and wine club content
-4. **Social media** — Begin consistent posting (brand awareness)
-5. **Product standardization** — Finalize branding for oils, olives, honey, pesto
+1. **Website redesign** — Launch with restaurant booking, online product shop, and wine showcase
+2. **Wine upsell program** — Develop tasting notes, pairing cards, and staff training sessions
+3. **Online shop** — Set up e-commerce for artisan products (olive oil, olives, honey, pesto)
+4. **Email marketing** — Segment list, launch newsletter promoting products and events
+5. **Social media** — Begin consistent posting (brand awareness, product storytelling)
 
 ---
 
@@ -122,9 +123,10 @@ With strategic marketing, Casita Miro can build three interlocking revenue strea
 1. **Review this wiki** — Understand strategy and plan
 2. **Review detailed docs** — Read As-Is, SWOT, Business Strategy, Marketing Plan
 3. **Website redesign brief** — Partner with designer (use Website & Digital page as blueprint)
-4. **Wine club setup** — Choose platform (e.g., Littio, Subbly, or custom shopify)
-5. **Social media audit** — Assess current presence, plan content calendar
-6. **Launch timeline** — Schedule website launch, wine club, and email program
+4. **Wine upsell training** — Develop materials and schedule staff training sessions
+5. **Online shop setup** — Choose e-commerce platform and finalise product branding
+6. **Social media audit** — Assess current presence, plan content calendar
+7. **Launch timeline** — Schedule website launch, online shop, and email program
 
 ---
 
