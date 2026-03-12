@@ -1062,12 +1062,12 @@ em {
 
     .nav-links a {
         display: block;
-        padding: 1rem 1.5rem !important;
-        font-size: 1rem !important;
+        padding: 0.9rem 1.5rem !important;
+        font-size: 0.95rem !important;
         font-family: var(--sans) !important;
         color: var(--near-black) !important;
         transition: background 0.3s;
-        white-space: nowrap;
+        line-height: 1.4;
     }
 
     .nav-links a:hover {
@@ -1076,11 +1076,11 @@ em {
     }
 
     .nav-links .nav-cta {
-        margin: 1rem 1.5rem calc(1rem + env(safe-area-inset-bottom, 0px)) 1.5rem !important;
-        padding: 0.75rem 1.5rem !important;
+        margin: 0.75rem 1.5rem 1rem 1.5rem !important;
+        padding: 0.7rem 1.5rem !important;
         display: block !important;
         text-align: center;
-        font-size: 0.9rem !important;
+        font-size: 0.85rem !important;
         font-family: var(--sans) !important;
         border: none !important;
         background: var(--red) !important;
