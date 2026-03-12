@@ -1,42 +1,18 @@
 /* ============================================================================
-   CASITA MIRO - Complete Stylesheet
-   Spanish Restaurant & Vineyard, Waiheke Island
-   ========================================================================== */
-
-/* ============================================================================
-   1. VARIABLES & ROOT STYLES
+   CASITA MIRO - Contemporary Redesign
+   Full-page backgrounds, emotional imagery, sensual typography
    ========================================================================== */
 
 :root {
-    /* Color Palette */
-    --primary-red: #D32F2F;
-    --accent-red: #741D1D;
+    --primary: #D32F2F;
+    --accent: #741D1D;
     --cream: #F5F1E8;
-    --dark-gray: #2C2C2C;
-    --light-gray: #E8E8E8;
+    --dark: #1A1A1A;
+    --gray: #666;
+    --serif: 'Playfair Display', Georgia, serif;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --gold: #C9A961;
-    
-    /* Typography */
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', sans-serif;
-    
-    /* Sizing */
-    --spacing-unit: 1rem;
-    --max-width: 1200px;
-    
-    /* Shadows */
-    --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.08);
-    --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.12);
-    --shadow-dark: 0 8px 24px rgba(0, 0, 0, 0.15);
-    
-    /* Transitions */
-    --transition-fast: 200ms ease-in-out;
-    --transition-standard: 300ms ease-in-out;
 }
-
-/* ============================================================================
-   2. GLOBAL STYLES
-   ========================================================================== */
 
 * {
     margin: 0;
@@ -49,645 +25,413 @@ html {
 }
 
 body {
-    font-family: var(--font-sans);
-    color: var(--dark-gray);
-    background-color: var(--cream);
-    line-height: 1.6;
-    font-size: 16px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-a {
-    color: var(--primary-red);
-    text-decoration: none;
-    transition: color var(--transition-fast);
-}
-
-a:hover {
-    color: var(--accent-red);
+    font-family: var(--sans);
+    color: var(--dark);
+    background: var(--cream);
+    line-height: 1.7;
 }
 
 /* ============================================================================
-   3. TYPOGRAPHY
+   HEADER & NAVIGATION
    ========================================================================== */
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-serif);
-    color: var(--dark-gray);
-    font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 0.5em;
-}
-
-h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 2.75rem;
-    font-weight: 700;
-}
-
-h3 {
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-h4 {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-h5 {
-    font-size: 1.25rem;
-    font-weight: 600;
-}
-
-h6 {
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-p {
-    margin-bottom: 1.5em;
-    line-height: 1.8;
-    font-size: 1rem;
-}
-
-/* ============================================================================
-   4. LAYOUT HELPERS
-   ========================================================================== */
-
-.container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
-.grid-2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 3rem;
-    align-items: center;
-}
-
-.grid-3 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-}
-
-.grid-4 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-
-/* ============================================================================
-   5. BUTTONS
-   ========================================================================== */
-
-.btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    border: 2px solid var(--primary-red);
-    background-color: transparent;
-    color: var(--primary-red);
-    font-family: var(--font-sans);
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all var(--transition-standard);
-    text-align: center;
-    border-radius: 4px;
-}
-
-.btn:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-medium);
-}
-
-.btn-primary {
-    background-color: var(--primary-red);
-    color: white;
-    border-color: var(--primary-red);
-}
-
-.btn-primary:hover {
-    background-color: var(--accent-red);
-    border-color: var(--accent-red);
-}
-
-.btn-secondary {
-    background-color: transparent;
-    color: var(--primary-red);
-    border-color: var(--primary-red);
-}
-
-.btn-secondary:hover {
-    background-color: var(--primary-red);
-    color: white;
-}
-
-.btn-link {
-    border: none;
-    padding: 0.5rem 0;
-    color: var(--primary-red);
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-.btn-link:hover {
-    color: var(--accent-red);
-    transform: none;
-}
-
-button {
-    border: none;
-    font-family: var(--font-sans);
-    cursor: pointer;
-}
-
-/* ============================================================================
-   6. NAVIGATION
-   ========================================================================== */
-
-.navbar {
-    background-color: white;
-    box-shadow: var(--shadow-light);
-    position: sticky;
+header {
+    position: fixed;
     top: 0;
-    z-index: 100;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(245, 241, 232, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(211, 47, 47, 0.1);
 }
 
-.nav-container {
-    max-width: var(--max-width);
+nav {
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-brand {
-    flex-shrink: 0;
+.logo-img {
+    height: 45px;
+    width: auto;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-red);
-    font-family: var(--font-serif);
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
     margin: 0;
 }
 
-.nav-menu {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    align-items: center;
-}
-
-.nav-menu a {
-    font-weight: 600;
-    color: var(--dark-gray);
+nav a {
+    font-family: var(--sans);
     font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--dark);
+    transition: color 300ms;
+    text-decoration: none;
 }
 
-.nav-menu a:hover {
-    color: var(--primary-red);
+nav a:hover {
+    color: var(--primary);
 }
 
 .mobile-menu-toggle {
     display: none;
     background: none;
-    padding: 0.5rem;
+    border: none;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
-.mobile-menu-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: var(--dark-gray);
-    margin: 5px 0;
-    transition: all var(--transition-fast);
+@media (max-width: 768px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: var(--cream);
+        padding: 2rem 0;
+        display: none;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 1rem 2rem;
+        border-bottom: 1px solid #eee;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
 }
 
 /* ============================================================================
-   7. HERO SECTION
+   HERO SECTION - Full Page Background
    ========================================================================== */
 
 .hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(211, 47, 47, 0.4), rgba(116, 29, 29, 0.5)),
+                url('images/hero-vineyard-ocean.jpg') center / cover no-repeat;
+    display: flex;
     align-items: center;
-    gap: 4rem;
-    padding: 6rem 2rem;
-    max-width: var(--max-width);
-    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 .hero-content {
     z-index: 10;
+    max-width: 800px;
+    padding: 2rem;
 }
 
-.hero-title {
-    font-size: 3rem;
-    color: var(--dark-gray);
-    margin-bottom: 1.5rem;
-    line-height: 1.2;
+.hero h1 {
+    font-family: var(--serif);
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.hero-subtitle {
-    font-size: 1.25rem;
-    color: #666;
+.hero p {
+    font-size: clamp(1rem, 3vw, 1.5rem);
     margin-bottom: 2rem;
-    line-height: 1.6;
+    font-weight: 300;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-.hero-ctas {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: var(--primary);
+    color: white;
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    text-decoration: none;
+    letter-spacing: 0.5px;
 }
 
-.hero-image {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: var(--shadow-dark);
-    height: 500px;
-}
-
-.hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.cta-button:hover {
+    background: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(211, 47, 47, 0.3);
 }
 
 /* ============================================================================
-   8. SECTIONS & SPACING
+   SECTION DEFAULTS - Full Bleed Backgrounds
    ========================================================================== */
 
 section {
-    padding: 6rem 0;
+    position: relative;
+    padding: 6rem 2rem;
 }
 
-.section-title {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 3rem;
-    color: var(--dark-gray);
+section.dark {
+    background: var(--dark);
+    color: white;
 }
 
-.section-subtitle {
-    text-align: center;
-    color: #666;
-    font-size: 1.1rem;
+section.light {
+    background: var(--cream);
+    color: var(--dark);
+}
+
+section.with-bg {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+section.with-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+section.with-bg > * {
+    position: relative;
+    z-index: 2;
+}
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ============================================================================
+   TYPOGRAPHY & HEADINGS
+   ========================================================================== */
+
+h1, h2, h3, h4 {
+    font-family: var(--serif);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
     margin-bottom: 2rem;
 }
 
+h3 {
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    margin-bottom: 1.5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.accent-color {
+    color: var(--primary);
+}
+
 /* ============================================================================
-   9. EXPERIENCE GRID / CARDS
+   EXPERIENCE GRID - Cards with Image Backgrounds
    ========================================================================== */
 
-.experiences-grid {
-    background-color: white;
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
 .experience-card {
-    background-color: white;
-    border-radius: 8px;
+    position: relative;
+    aspect-ratio: 4 / 5;
     overflow: hidden;
-    box-shadow: var(--shadow-light);
-    transition: all var(--transition-standard);
-    display: block;
-    text-decoration: none;
-    color: var(--dark-gray);
+    cursor: pointer;
+    transition: all 300ms;
 }
 
-.experience-card:hover {
-    transform: translateY(-8px);
-    box-shadow: var(--shadow-dark);
-}
-
-.card-image {
-    height: 250px;
-    overflow: hidden;
-    background-color: var(--light-gray);
-}
-
-.card-image img {
+.experience-card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    transition: transform var(--transition-standard);
+    background-size: cover;
+    background-position: center;
+    transition: transform 300ms;
 }
 
-.experience-card:hover .card-image img {
+.experience-card:hover .experience-card-bg {
     transform: scale(1.05);
 }
 
-.experience-card h4 {
-    padding: 1.5rem 1.5rem 0.5rem;
-    margin: 0;
-    color: var(--primary-red);
-    font-size: 1.5rem;
+.experience-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.2), rgba(0,0,0,0.7));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem;
+    z-index: 2;
+}
+
+.experience-card h3 {
+    color: white;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .experience-card p {
-    padding: 0 1.5rem 1.5rem;
-    margin: 0;
-    color: #666;
+    color: rgba(255, 255, 255, 0.95);
     font-size: 0.95rem;
+    margin: 0;
 }
 
 /* ============================================================================
-   10. AWARDS SECTION
+   FEATURES & CONTENT SECTIONS
    ========================================================================== */
 
-.awards-section {
-    background-color: #fafafa;
-}
-
-.awards-content {
+.feature-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
-.awards-title {
-    color: var(--primary-red);
+.feature-row.reverse {
+    direction: rtl;
+}
+
+.feature-row.reverse > * {
+    direction: ltr;
+}
+
+.feature-image {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature-text h2 {
+    color: var(--primary);
     margin-bottom: 1.5rem;
 }
 
+.feature-text p {
+    color: var(--gray);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .feature-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .feature-row.reverse {
+        direction: ltr;
+    }
+}
+
+/* ============================================================================
+   AWARDS SECTION
+   ========================================================================== */
+
 .awards-list {
     display: grid;
-    gap: 1.5rem;
-    margin: 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 .award {
     padding: 1.5rem;
-    background-color: white;
-    border-left: 4px solid var(--primary-red);
+    background: rgba(211, 47, 47, 0.1);
+    border-left: 4px solid var(--primary);
     border-radius: 4px;
 }
 
 .award-year {
     display: block;
-    font-weight: 600;
-    color: var(--primary-red);
-    font-size: 0.9rem;
+    font-family: var(--serif);
+    font-size: 1.25rem;
+    color: var(--primary);
+    font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
 .award-name {
     display: block;
-    color: var(--dark-gray);
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.awards-image {
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: var(--shadow-medium);
-}
-
-.awards-image img {
-    width: 100%;
-    height: auto;
-}
-
-/* ============================================================================
-   11. STORY SECTION
-   ========================================================================== */
-
-.story-section {
-    background-color: white;
-}
-
-.story-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-}
-
-.story-image {
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: var(--shadow-dark);
-}
-
-.story-image img {
-    width: 100%;
-    height: auto;
-}
-
-.story-title {
-    color: var(--primary-red);
-    margin-bottom: 1.5rem;
-}
-
-.story-text p {
-    color: #555;
-    margin-bottom: 1.5rem;
-    line-height: 1.8;
-}
-
-.story-text .btn {
-    margin-top: 1rem;
-}
-
-/* ============================================================================
-   12. FEATURED SECTION
-   ========================================================================== */
-
-.featured-section {
-    background-color: #fafafa;
-}
-
-.featured-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-    background-color: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: var(--shadow-medium);
-}
-
-.featured-image {
-    height: 400px;
-    overflow: hidden;
-}
-
-.featured-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.featured-content {
-    padding: 3rem;
-}
-
-.featured-label {
-    display: inline-block;
-    background-color: var(--primary-red);
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-}
-
-.featured-content h4 {
-    color: var(--dark-gray);
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.featured-content p {
-    color: #666;
-    margin-bottom: 1.5rem;
-}
-
-.featured-details {
-    background-color: var(--cream);
-    padding: 1.5rem;
-    border-radius: 4px;
-    margin: 1.5rem 0;
-}
-
-.featured-details p {
-    margin-bottom: 0.5rem;
     font-size: 0.95rem;
-}
-
-.featured-details strong {
-    color: var(--dark-gray);
-    font-weight: 600;
+    color: var(--dark);
 }
 
 /* ============================================================================
-   13. NEWSLETTER SECTION
-   ========================================================================== */
-
-.newsletter-section {
-    background: linear-gradient(135deg, var(--primary-red), var(--accent-red));
-    color: white;
-}
-
-.newsletter-content {
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.newsletter-content h3 {
-    color: white;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.newsletter-content p {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-}
-
-.newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.form-group {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.form-group input {
-    flex: 1;
-    padding: 1rem;
-    border: none;
-    border-radius: 4px;
-    font-family: var(--font-sans);
-    font-size: 1rem;
-}
-
-.form-group input::placeholder {
-    color: #999;
-}
-
-.form-group button {
-    padding: 1rem 2rem;
-    background-color: var(--accent-red);
-    color: white;
-    font-weight: 600;
-    border-radius: 4px;
-    transition: background-color var(--transition-fast);
-}
-
-.form-group button:hover {
-    background-color: white;
-    color: var(--primary-red);
-}
-
-.form-note {
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.8);
-    margin: 0;
-}
-
-/* ============================================================================
-   14. INSTAGRAM SECTION
+   INSTAGRAM GRID - 6 Images
    ========================================================================== */
 
 .instagram-section {
-    background-color: white;
+    background: var(--dark);
+    color: white;
 }
 
 .instagram-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 .instagram-item {
     position: relative;
-    overflow: hidden;
-    border-radius: 8px;
     aspect-ratio: 1;
-    background-color: var(--light-gray);
-    box-shadow: var(--shadow-light);
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .instagram-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform var(--transition-standard);
+    transition: transform 300ms;
 }
 
 .instagram-item:hover img {
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 
 .instagram-icon {
@@ -695,410 +439,188 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
+    font-size: 2.5rem;
     opacity: 0;
-    transition: opacity var(--transition-standard);
+    transition: opacity 300ms;
+    z-index: 2;
 }
 
 .instagram-item:hover .instagram-icon {
     opacity: 1;
 }
 
-.instagram-section > .btn {
-    display: block;
-    margin: 0 auto;
+/* ============================================================================
+   NEWSLETTER FORM
+   ========================================================================== */
+
+.newsletter-container {
+    max-width: 500px;
+    margin-top: 3rem;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 0;
+    font-family: var(--sans);
+    font-size: 1rem;
+    background: white;
+}
+
+.newsletter-form button {
+    padding: 1rem 2rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    font-family: var(--sans);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 300ms;
+}
+
+.newsletter-form button:hover {
+    background: var(--accent);
 }
 
 /* ============================================================================
-   15. FOOTER
+   FOOTER
    ========================================================================== */
 
-.footer {
-    background-color: var(--dark-gray);
-    color: #ccc;
-    padding: 4rem 0 2rem;
+footer {
+    background: var(--dark);
+    color: white;
+    padding: 4rem 2rem 2rem;
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
-    margin-bottom: 3rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
 }
 
 .footer-section h4 {
-    color: white;
-    font-size: 1.1rem;
+    color: var(--primary);
     margin-bottom: 1.5rem;
-    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 .footer-section ul {
     list-style: none;
 }
 
-.footer-section ul li {
-    margin-bottom: 0.5rem;
+.footer-section li {
+    margin-bottom: 0.75rem;
 }
 
 .footer-section a {
-    color: #ccc;
-    text-decoration: none;
-    transition: color var(--transition-fast);
+    color: #aaa;
+    transition: color 300ms;
 }
 
 .footer-section a:hover {
-    color: var(--primary-red);
-}
-
-.footer-section p {
-    margin: 0;
-    font-size: 0.95rem;
-    line-height: 1.8;
-    color: #ccc;
-}
-
-.social-icons {
-    display: flex;
-    gap: 1rem;
-    font-size: 1.5rem;
-}
-
-.social-icons a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-    transition: all var(--transition-fast);
-    text-decoration: none;
-}
-
-.social-icons a:hover {
-    background-color: var(--primary-red);
-    color: white;
+    color: var(--primary);
 }
 
 .footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid #333;
     padding-top: 2rem;
     text-align: center;
-}
-
-.footer-bottom p {
-    margin: 0.5rem 0;
+    color: #888;
     font-size: 0.9rem;
-    color: #999;
-}
-
-.footer-links {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-}
-
-.footer-links a {
-    color: #ccc;
-    font-size: 0.9rem;
-}
-
-.footer-links a:hover {
-    color: var(--primary-red);
 }
 
 /* ============================================================================
-   16. RESPONSIVE DESIGN
+   RESPONSIVE DESIGN
    ========================================================================== */
 
-@media (max-width: 768px) {
-    :root {
-        font-size: 14px;
+@media (max-width: 1024px) {
+    section {
+        padding: 4rem 1.5rem;
     }
 
-    h1 {
+    h2 {
         font-size: 2.5rem;
     }
 
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    .container {
-        padding: 0 1.5rem;
-    }
-
-    /* Navigation */
-    .mobile-menu-toggle {
-        display: block;
-    }
-
-    .nav-menu {
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background-color: white;
-        flex-direction: column;
-        gap: 0;
-        align-items: flex-start;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height var(--transition-standard);
-        box-shadow: var(--shadow-light);
-        padding: 0;
-    }
-
-    .nav-menu.active {
-        max-height: 400px;
-        padding: 1rem 0;
-    }
-
-    .nav-menu li {
-        width: 100%;
-    }
-
-    .nav-menu a {
-        display: block;
-        padding: 1rem 2rem;
-        width: 100%;
-    }
-
-    /* Hero */
-    .hero {
-        grid-template-columns: 1fr;
-        padding: 4rem 0;
+    nav ul {
         gap: 2rem;
-    }
-
-    .hero-title {
-        font-size: 2rem;
-    }
-
-    .hero-subtitle {
-        font-size: 1rem;
-    }
-
-    .hero-image {
-        height: 300px;
-    }
-
-    /* Grid layouts */
-    .grid-2 {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .grid-3 {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-
-    .grid-4 {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1.5rem;
-    }
-
-    /* Awards */
-    .awards-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    /* Story */
-    .story-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    /* Featured */
-    .featured-card {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .featured-image {
-        height: 250px;
-    }
-
-    .featured-content {
-        padding: 2rem;
-    }
-
-    /* Newsletter form */
-    .form-group {
-        flex-direction: column;
-    }
-
-    /* Section spacing */
-    section {
-        padding: 3rem 0;
-    }
-
-    .section-title {
-        font-size: 1.75rem;
-        margin-bottom: 2rem;
-    }
-
-    /* Instagram grid */
-    .instagram-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-    }
-
-    /* Footer grid */
-    .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    /* Hero CTAs */
-    .hero-ctas {
-        flex-direction: column;
-    }
-
-    .btn {
-        width: 100%;
     }
 }
 
-@media (max-width: 480px) {
-    h1 {
+@media (max-width: 768px) {
+    nav ul {
+        gap: 1rem;
+    }
+
+    .hero h1 {
         font-size: 2rem;
     }
 
-    h2 {
-        font-size: 1.5rem;
+    .hero p {
+        font-size: 1rem;
     }
 
-    h3 {
-        font-size: 1.25rem;
-    }
-
-    .container {
-        padding: 0 1rem;
-    }
-
-    .hero {
-        padding: 2rem 0;
-    }
-
-    .hero-title {
-        font-size: 1.5rem;
-    }
-
-    .hero-subtitle {
+    .cta-button {
+        padding: 0.875rem 2rem;
         font-size: 0.95rem;
     }
 
-    .hero-image {
-        height: 200px;
-    }
-
     section {
-        padding: 2rem 0;
+        padding: 3rem 1rem;
     }
 
-    .section-title {
-        font-size: 1.5rem;
-        margin-bottom: 1.5rem;
+    h2 {
+        font-size: 2rem;
     }
 
-    .instagram-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.5rem;
+    .experience-grid {
+        gap: 1.5rem;
     }
 
-    .award {
-        padding: 1rem;
+    .newsletter-form {
+        flex-direction: column;
     }
 
-    .featured-content {
-        padding: 1.5rem;
+    .newsletter-form button {
+        width: 100%;
     }
 
-    .newsletter-content h3 {
-        font-size: 1.75rem;
-    }
-
-    .form-group input {
-        padding: 0.75rem;
-        font-size: 0.9rem;
-    }
-
-    .form-group button {
-        padding: 0.75rem 1.5rem;
-        font-size: 0.9rem;
+    .footer-grid {
+        gap: 2rem;
     }
 }
 
 /* ============================================================================
-   17. UTILITY CLASSES
+   UTILITY CLASSES
    ========================================================================== */
-
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
 
 .text-center {
     text-align: center;
 }
 
-.text-gold {
-    color: var(--gold);
-}
-
-.bg-cream {
-    background-color: var(--cream);
-}
-
-.bg-light {
-    background-color: #fafafa;
-}
-
-.mt-2 {
+.mt-4 {
     margin-top: 2rem;
 }
 
-.mt-3 {
-    margin-top: 3rem;
-}
-
-.mb-2 {
+.mb-4 {
     margin-bottom: 2rem;
 }
 
-.mb-3 {
-    margin-bottom: 3rem;
+.opacity-90 {
+    opacity: 0.9;
 }
 
-.pt-2 {
-    padding-top: 2rem;
-}
-
-.pt-3 {
-    padding-top: 3rem;
-}
-
-.pb-2 {
-    padding-bottom: 2rem;
-}
-
-.pb-3 {
-    padding-bottom: 3rem;
+.no-scroll {
+    overflow: hidden;
 }

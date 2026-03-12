@@ -3,98 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Casita Miro - Award-winning Spanish restaurant and vineyard on Waiheke Island, New Zealand. Experience authentic Spanish cuisine, premium wines, and world-class hospitality.">
-    <meta name="og:title" content="Casita Miro - Spanish Restaurant & Vineyard Waiheke Island">
-    <meta name="og:description" content="The must-go culinary experience in NZ. 25+ years of Spanish mastery with award-winning wines and seasonal cuisine.">
-    <title>Casita Miro - Spanish Restaurant & Vineyard | Waiheke Island</title>
+    <title>Casita Miro | Award-Winning Spanish Restaurant & Vineyard, Waiheke Island</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <img src="images/logo-casita-miro.png" alt="Casita Miro Logo" class="logo-img">
-                <h1 class="logo">Casita Miro</h1>
+    <!-- ================================================================
+         HEADER & NAVIGATION
+         ================================================================ -->
+    <header>
+        <nav>
+            <div>
+                <img src="images/logo-casita-miro.png" alt="Casita Miro" class="logo-img">
             </div>
-            <button class="mobile-menu-toggle" id="mobileMenuToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="pages/dining.html">Dining</a></li>
-                <li><a href="pages/wine.html">Wine</a></li>
-                <li><a href="pages/shop.html">Kitchen & Products</a></li>
-                <li><a href="pages/events.html">Events</a></li>
-                <li><a href="pages/about.html">About</a></li>
+            <ul id="nav-menu">
+                <li><a href="#dining">Dining</a></li>
+                <li><a href="#wine">Wine</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="pages/contact.html">Contact</a></li>
             </ul>
-        </div>
-    </nav>
+            <button class="mobile-menu-toggle" id="menu-toggle">☰</button>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
+    <!-- ================================================================
+         HERO - Full Page Background Image
+         ================================================================ -->
     <section class="hero">
         <div class="hero-content">
-            <h2 class="hero-title">The Must-Go Culinary Experience in New Zealand</h2>
-            <p class="hero-subtitle">25+ years of Spanish mastery. Award-winning restaurant, vineyard, and premium wines on Waiheke Island.</p>
-            <div class="hero-ctas">
-                <a href="pages/dining.html#book" class="btn btn-primary">Book a Table</a>
-                <a href="pages/wine.html" class="btn btn-secondary">Explore Wine</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="images/hero-vineyard-ocean.jpg" alt="Casita Miro vineyard with ocean views" loading="lazy">
+            <h1>A Must-Go Destination</h1>
+            <p>Award-winning Spanish restaurant, estate vineyard & cellar door on Waiheke Island</p>
+            <a href="pages/contact.html" class="cta-button">Reserve a Table</a>
         </div>
     </section>
 
-    <!-- Experience Navigation -->
-    <section class="experiences-grid">
-        <div class="container">
-            <h3 class="section-title">Experience Casita Miro</h3>
-            <div class="grid-4">
-                <a href="pages/dining.html" class="experience-card">
-                    <div class="card-image">
-                        <img src="images/dish-1.jpg" alt="Fine dining at Casita Miro" loading="lazy">
+    <!-- ================================================================
+         EXPERIENCE GRID - 4 Card Features
+         ================================================================ -->
+    <section class="light">
+        <div class="section-container">
+            <h2 class="text-center">Our World</h2>
+            <div class="experience-grid">
+                <!-- Dining -->
+                <div class="experience-card">
+                    <div class="experience-card-bg" style="background-image: url('images/dish-1.jpg');"></div>
+                    <div class="experience-card-overlay">
+                        <h3>Dining</h3>
+                        <p>Farm-to-table Spanish cuisine with fresh produce from our organic gardens</p>
                     </div>
-                    <h4>Dining</h4>
-                    <p>Fiesta menu, cellar door, and fine dining experiences</p>
-                </a>
-                <a href="pages/wine.html" class="experience-card">
-                    <div class="card-image">
-                        <img src="images/wine-bottles.jpg" alt="Miro Vineyard wine selection" loading="lazy">
+                </div>
+
+                <!-- Wine -->
+                <div class="experience-card">
+                    <div class="experience-card-bg" style="background-image: url('images/wine-bottles.jpg');"></div>
+                    <div class="experience-card-overlay">
+                        <h3>Vineyard</h3>
+                        <p>4.2 hectares of estate vineyards producing award-winning wines</p>
                     </div>
-                    <h4>Wine</h4>
-                    <p>Estate wines, Spanish imports, and wine club membership</p>
-                </a>
-                <a href="pages/shop.html" class="experience-card">
-                    <div class="card-image">
-                        <img src="images/product-olive-oil.jpg" alt="Artisan food products" loading="lazy">
+                </div>
+
+                <!-- Shop -->
+                <div class="experience-card">
+                    <div class="experience-card-bg" style="background-image: url('images/product-olive-oil.jpg');"></div>
+                    <div class="experience-card-overlay">
+                        <h3>Artisan Products</h3>
+                        <p>Spanish imports, house-made condiments & exclusive Madame Rouge aperitif</p>
                     </div>
-                    <h4>Products</h4>
-                    <p>Madame Rouge, olive oils, and artisan Spanish goods</p>
-                </a>
-                <a href="pages/events.html" class="experience-card">
-                    <div class="card-image">
-                        <img src="images/dish-2.jpg" alt="Special events and celebrations" loading="lazy">
+                </div>
+
+                <!-- Events -->
+                <div class="experience-card">
+                    <div class="experience-card-bg" style="background-image: url('images/dish-2.jpg');"></div>
+                    <div class="experience-card-overlay">
+                        <h3>Celebrations</h3>
+                        <p>Intimate wine releases, chef's dinners & unforgettable events</p>
                     </div>
-                    <h4>Events</h4>
-                    <p>Wine releases, cultural celebrations, and chef's dinners</p>
-                </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Awards Section -->
-    <section class="awards-section">
-        <div class="container">
-            <div class="awards-content">
-                <div class="awards-text">
-                    <h3 class="awards-title">Award-Winning Since 2011</h3>
-                    <p>13 consecutive years of TripAdvisor Traveller's Choice recognition. Celebrated by Cuisine Magazine, Iconic Eats, and food critics across New Zealand and the world.</p>
+    <!-- ================================================================
+         AWARDS & RECOGNITION
+         ================================================================ -->
+    <section class="dark">
+        <div class="section-container">
+            <div class="feature-row">
+                <div class="feature-image">
+                    <img src="images/team-photo.jpg" alt="Casita Miro team" loading="lazy">
+                </div>
+                <div class="feature-text">
+                    <h2>13 Years of Excellence</h2>
+                    <p>TripAdvisor Traveller's Choice award winner for 13 consecutive years. Ranked #1 in Onetangi, celebrated by Cuisine Magazine, and recognized as an iconic Auckland establishment.</p>
                     <div class="awards-list">
                         <div class="award">
                             <span class="award-year">2011-2024</span>
@@ -102,166 +104,146 @@
                         </div>
                         <div class="award">
                             <span class="award-year">2025</span>
-                            <span class="award-name">Iconic Eats Auckland Top 100</span>
-                        </div>
-                        <div class="award">
-                            <span class="award-year">2025</span>
-                            <span class="award-name">Lewisham Awards</span>
-                        </div>
-                        <div class="award">
-                            <span class="award-year">2024</span>
-                            <span class="award-name">Cuisine Magazine Good Food Awards</span>
+                            <span class="award-name">Iconic Eats Top 100</span>
                         </div>
                     </div>
-                    <a href="https://www.tripadvisor.com" class="btn btn-link" target="_blank">1,758 Reviews on TripAdvisor →</a>
-                </div>
-                <div class="awards-image">
-                    <img src="images/team-photo.jpg" alt="Casita Miro team and awards" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Story Section -->
-    <section class="story-section">
-        <div class="container">
-            <div class="story-content">
-                <div class="story-image">
-                    <img src="images/team-photo.jpg" alt="Barnett and Cat Bond, founders of Casita Miro" loading="lazy">
+    <!-- ================================================================
+         STORY - Full Background Image Section
+         ================================================================ -->
+    <section class="with-bg light" style="background-image: url('images/hero-vineyard-ocean.jpg');">
+        <div class="section-container">
+            <h2 style="color: white; text-shadow: 1px 1px 4px rgba(0,0,0,0.3);">A Spanish Dream on Waiheke</h2>
+            <div style="max-width: 600px; color: rgba(255,255,255,0.95); font-size: 1.1rem;">
+                <p>Three things make Casita Miro extraordinary. First, we make our own award-winning wines from our 4.2-hectare vineyard—a complete control over our terroir and craft. Second, we grow our own fresh produce in organic gardens, harvesting daily for our menus. Third, we source the best-of-best Spanish ingredients directly from Spain's renowned bodegas and artisanal producers.</p>
+                <p>It's not just a restaurant. It's a complete world of Spanish culture, food, wine, and hospitality on one stunning Waiheke property.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         FEATURED EVENT
+         ================================================================ -->
+    <section class="light">
+        <div class="section-container">
+            <div class="feature-row reverse">
+                <div class="feature-image">
+                    <img src="images/wine-bottles.jpg" alt="Wine releases and events" loading="lazy">
                 </div>
-                <div class="story-text">
-                    <h3 class="story-title">25+ Years of Spanish Mastery</h3>
-                    <p>Barnett and Cat Bond created Casita Miro from a passion for authentic Spanish food, exceptional wine, and creating unforgettable moments. What began as a small restaurant has evolved into one of New Zealand's most celebrated culinary destinations.</p>
-                    <p>Every detail—from the vineyard's terroir to the sourcing of Spanish delicacies—reflects their commitment to authenticity, quality, and the art of hospitality.</p>
-                    <a href="pages/about.html" class="btn btn-secondary">Read Our Story</a>
+                <div class="feature-text">
+                    <h2>Wine Releases & Events</h2>
+                    <p>Join us for seasonal wine releases, chef's dinners, and exclusive wine club tastings. Experience our vineyard from the restaurant's Gaudi-inspired mosaic bar, where wine and food create magic.</p>
+                    <a href="pages/events.html" class="cta-button">View Events</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Experience (Rotating) -->
-    <section class="featured-section">
-        <div class="container">
-            <h3 class="section-title">Featured This Season</h3>
-            <div class="featured-card">
-                <div class="featured-image">
-                    <img src="images/wine-bottles.jpg" alt="Spring wine release 2026" loading="lazy">
+    <!-- ================================================================
+         INSTAGRAM GRID
+         ================================================================ -->
+    <section class="instagram-section">
+        <div class="section-container">
+            <h2 style="text-align: center; color: white;">Follow Our Story</h2>
+            <div class="instagram-grid">
+                <div class="instagram-item">
+                    <img src="images/dish-1.jpg" alt="Spanish cuisine" loading="lazy">
+                    <span class="instagram-icon">📸</span>
                 </div>
-                <div class="featured-content">
-                    <span class="featured-label">Wine Release</span>
-                    <h4>Spring 2026 Syrah & Bordeaux Blend Release</h4>
-                    <p>Join us for our seasonal wine release celebration. Taste the 2025 vintage, meet Barnett, and enjoy special tapas prepared for the occasion.</p>
-                    <div class="featured-details">
-                        <p><strong>Date:</strong> TBA (March-April 2026)</p>
-                        <p><strong>Time:</strong> 12:00 PM - 5:00 PM</p>
-                        <p><strong>Price:</strong> Free entry | Wine by the glass</p>
-                    </div>
-                    <a href="pages/events.html" class="btn btn-primary">View All Events</a>
+                <div class="instagram-item">
+                    <img src="images/wine-bottles.jpg" alt="Miro Vineyard wines" loading="lazy">
+                    <span class="instagram-icon">📸</span>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/dish-2.jpg" alt="Fine dining experience" loading="lazy">
+                    <span class="instagram-icon">📸</span>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/product-olive-oil.jpg" alt="Artisan products" loading="lazy">
+                    <span class="instagram-icon">📸</span>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/hero-vineyard-ocean.jpg" alt="Vineyard views" loading="lazy">
+                    <span class="instagram-icon">📸</span>
+                </div>
+                <div class="instagram-item">
+                    <img src="images/team-photo.jpg" alt="Our team" loading="lazy">
+                    <span class="instagram-icon">📸</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Newsletter Signup -->
-    <section class="newsletter-section">
-        <div class="container">
-            <div class="newsletter-content">
-                <h3>Stay Connected</h3>
-                <p>Get updates on wine releases, seasonal menus, exclusive events, and special offers.</p>
-                <form class="newsletter-form" id="newsletterForm">
-                    <div class="form-group">
-                        <input type="email" placeholder="Enter your email" required>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </div>
-                    <p class="form-note">We respect your privacy. Unsubscribe anytime.</p>
+    <!-- ================================================================
+         NEWSLETTER SIGNUP
+         ================================================================ -->
+    <section class="light">
+        <div class="section-container text-center">
+            <h2>Stay Connected</h2>
+            <p>Get updates on wine releases, seasonal menus, and exclusive events</p>
+            <div class="newsletter-container">
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Instagram Feed Preview -->
-    <section class="instagram-section">
-        <div class="container">
-            <h3 class="section-title">Follow Our Journey</h3>
-            <p class="section-subtitle">@casitamiro on Instagram</p>
-            <div class="instagram-grid">
-                <div class="instagram-item">
-                    <img src="images/dish-1.jpg" alt="Spanish cuisine" loading="lazy">
-                    <span class="instagram-icon">📷</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/wine-bottles.jpg" alt="Miro Vineyard wines" loading="lazy">
-                    <span class="instagram-icon">📷</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/dish-2.jpg" alt="Fine dining experience" loading="lazy">
-                    <span class="instagram-icon">📷</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/product-olive-oil.jpg" alt="Artisan products" loading="lazy">
-                    <span class="instagram-icon">📷</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/hero-vineyard-ocean.jpg" alt="Vineyard views" loading="lazy">
-                    <span class="instagram-icon">📷</span>
-                </div>
-                <div class="instagram-item">
-                    <img src="images/team-photo.jpg" alt="Our team" loading="lazy">
-                    <span class="instagram-icon">📷</span>
-                </div>
+    <!-- ================================================================
+         FOOTER
+         ================================================================ -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h4>Dining</h4>
+                <ul>
+                    <li><a href="pages/dining.html">Menu</a></li>
+                    <li><a href="pages/dining.html">Cellar Door</a></li>
+                    <li><a href="pages/contact.html">Reservations</a></li>
+                    <li><a href="pages/dining.html">Parking</a></li>
+                </ul>
             </div>
-            <a href="https://instagram.com/casitamiro" class="btn btn-secondary" target="_blank">Follow on Instagram</a>
+            <div class="footer-section">
+                <h4>Wine</h4>
+                <ul>
+                    <li><a href="pages/wine.html">Vineyard Story</a></li>
+                    <li><a href="pages/wine.html">Wine Selection</a></li>
+                    <li><a href="pages/wine.html">Wine Club</a></li>
+                    <li><a href="pages/wine.html">Tastings</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="pages/shop.html">Products</a></li>
+                    <li><a href="pages/shop.html">Madame Rouge</a></li>
+                    <li><a href="pages/shop.html">Spanish Imports</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="pages/about.html">About Us</a></li>
+                    <li><a href="pages/events.html">Events</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="pages/privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="pages/dining.html">Dining</a></li>
-                        <li><a href="pages/wine.html">Wine</a></li>
-                        <li><a href="pages/shop.html">Shop</a></li>
-                        <li><a href="pages/events.html">Events</a></li>
-                        <li><a href="pages/about.html">About</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>
-                        <strong>Phone:</strong> +64 9 372 5025<br>
-                        <strong>Email:</strong> hello@casitamiro.co.nz<br>
-                        <strong>Address:</strong> 3 Brown Road, Onetangi, Waiheke Island 1081
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Hours</h4>
-                    <p>
-                        <strong>Summer (Nov-Mar):</strong> Thu-Sun 12-10 PM<br>
-                        <strong>Autumn-Spring (Apr-Oct):</strong> Fri-Sun 12-10 PM<br>
-                        <em>Closed Mondays</em>
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <div class="social-icons">
-                        <a href="https://instagram.com/casitamiro" target="_blank" aria-label="Instagram">📷</a>
-                        <a href="https://facebook.com/casitamiro" target="_blank" aria-label="Facebook">f</a>
-                        <a href="https://tripadvisor.com" target="_blank" aria-label="TripAdvisor">✓</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Casita Miro. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="pages/privacy.html">Privacy Policy</a> | <a href="pages/terms.html">Terms of Service</a> | <a href="pages/contact.html">Contact</a>
-                </div>
-            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Casita Miro. Award-winning Spanish restaurant & vineyard on Waiheke Island, New Zealand.</p>
+            <p><strong>Contact:</strong> (09) 372 7854 | cmenquiries@outlook.com | 3 Brown Road, Onetangi, Waiheke Island 1081</p>
         </div>
     </footer>
 
+    <!-- ================================================================
+         SCRIPTS
+         ================================================================ -->
     <script src="js/main.js"></script>
 </body>
 </html>
