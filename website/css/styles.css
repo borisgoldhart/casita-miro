@@ -1210,6 +1210,7 @@ body.menu-open {
     position: relative;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     padding: 6rem 2rem;
 }
 
@@ -1225,6 +1226,8 @@ body.menu-open {
     z-index: 2;
     color: white;
     max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .page-hero-content h1 {
