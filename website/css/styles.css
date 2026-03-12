@@ -269,17 +269,20 @@ em {
     left: 0;
     right: 0;
     z-index: 1000;
-    transition: background 0.4s var(--ease), box-shadow 0.4s var(--ease), padding 0.4s var(--ease);
+    background: #F5F1EC;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 #site-header nav {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 1.75rem var(--gutter);
+    padding: 1.2rem var(--gutter);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: padding 0.4s var(--ease);
+    gap: 2rem;
 }
 
 #site-header.scrolled nav {
@@ -289,67 +292,83 @@ em {
 
 /* Header states */
 #site-header.at-top {
-    background: transparent;
+    background: #F5F1EC;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
 }
 
 #site-header.scrolled {
-    background: rgba(250, 250, 248, 0.97);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    background: #F5F1EC;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Logo */
 .nav-logo img {
-    height: 40px;
+    height: 45px;
     width: auto;
-    transition: filter 0.4s var(--ease);
+    transition: transform 0.3s var(--ease);
 }
 
-#site-header.at-top .nav-logo img {
-    filter: brightness(0) invert(1);
+.nav-logo img:hover {
+    transform: scale(1.02);
 }
 
 /* Nav links */
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 2.5rem;
+    gap: 3rem;
+    margin: 0 auto;
 }
 
 .nav-links a {
-    font-size: 0.85rem;
-    font-weight: 400;
-    letter-spacing: 0.04em;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--near-black);
     transition: color 0.3s var(--ease);
     position: relative;
+    text-decoration: none;
 }
 
-#site-header.at-top .nav-links a {
-    color: rgba(255, 255, 255, 0.85);
-}
-
-#site-header.at-top .nav-links a:hover {
-    color: var(--white);
-}
-
-#site-header.scrolled .nav-links a {
-    color: var(--near-black);
-}
-
-#site-header.scrolled .nav-links a:hover {
+.nav-links a:hover {
     color: var(--red);
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--red);
+    transform: scaleX(0);
+    transition: transform 0.3s var(--ease);
+    transform-origin: left;
+}
+
+.nav-links a:hover::after {
+    transform: scaleX(1);
 }
 
 /* Nav CTA */
 .nav-cta {
-    padding: 0.625rem 1.5rem !important;
-    border: 1px solid currentColor !important;
-    font-weight: 500 !important;
+    padding: 0.75rem 1.75rem !important;
+    background: var(--red) !important;
+    color: white !important;
+    border: none !important;
+    font-weight: 600 !important;
     letter-spacing: 0.08em !important;
     text-transform: uppercase;
-    font-size: 0.75rem !important;
+    font-size: 0.8rem !important;
     transition: all 0.3s var(--ease) !important;
+    border-radius: 3px;
+}
+
+.nav-cta:hover {
+    background: var(--red-dark) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(211, 47, 47, 0.25);
 }
 
 #site-header.scrolled .nav-cta {
@@ -455,24 +474,16 @@ em {
 
 .hero-tag {
     display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 500;
-    letter-spacing: 0.2em;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.6);
+    color: white;
     margin-bottom: var(--space-md);
-    padding-left: 3rem;
-    position: relative;
-}
-
-.hero-tag::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 2rem;
-    height: 1px;
-    background: var(--red);
+    padding: 0.75rem 1.5rem;
+    background: rgba(211, 47, 47, 0.9);
+    border-radius: 3px;
+    backdrop-filter: blur(10px);
 }
 
 .hero h1 {
@@ -483,11 +494,12 @@ em {
 
 .hero-sub {
     font-size: clamp(1rem, 2vw, 1.25rem);
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.75);
-    max-width: 44ch;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    max-width: 50ch;
     margin-bottom: var(--space-lg);
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 .hero-actions {
