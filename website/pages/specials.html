@@ -8,6 +8,186 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        /* Specials Grid */
+        .specials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .special-card {
+            background: #fff;
+            border: 1px solid #e8e8e8;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .special-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .special-card.featured {
+            border: 2px solid #D32F2F;
+            transform: scale(1.02);
+        }
+
+        .special-card.featured:hover {
+            transform: scale(1.02) translateY(-8px);
+            box-shadow: 0 20px 48px rgba(211, 47, 47, 0.2);
+        }
+
+        .special-image {
+            width: 100%;
+            height: 280px;
+            background: linear-gradient(135deg, #F5F1EC 0%, #FAFAF8 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .special-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .special-badge {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: #D32F2F;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .special-body {
+            padding: 2rem;
+        }
+
+        .special-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #D32F2F;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .special-title {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 0.75rem;
+            color: #1A1A1A;
+        }
+
+        .special-description {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .special-features {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+            padding: 1.5rem 0;
+        }
+
+        .special-features li {
+            color: #555;
+            font-size: 0.9rem;
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .special-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #D32F2F;
+            font-weight: 700;
+        }
+
+        .special-pricing {
+            background: #F5F1EC;
+            padding: 1.25rem;
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .special-price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #D32F2F;
+            margin-bottom: 0.25rem;
+        }
+
+        .special-price-note {
+            font-size: 0.8rem;
+            color: #999;
+        }
+
+        .special-cta {
+            display: inline-block;
+            background: #D32F2F;
+            color: white;
+            padding: 0.8rem 1.8rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+            width: 100%;
+            text-align: center;
+            border: 2px solid #D32F2F;
+        }
+
+        .special-cta:hover {
+            background: #b71c1c;
+            border-color: #b71c1c;
+        }
+
+        .special-card:not(.featured) .special-cta {
+            background: transparent;
+            color: #D32F2F;
+        }
+
+        .special-card:not(.featured) .special-cta:hover {
+            background: #D32F2F;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .specials-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .special-card.featured {
+                transform: scale(1);
+            }
+
+            .special-card.featured:hover {
+                transform: translateY(-8px);
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -44,93 +224,100 @@
         </div>
     </section>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Vintners Table -->
-        <section class="page-section">
-            <div class="container">
-                <h2 style="text-align: center; margin-bottom: 3rem;">Vintners Table Wine & Food Club</h2>
-                <p style="max-width: 800px; margin: 0 auto 3rem; text-align: center; color: #666; font-size: 1.05rem; line-height: 1.8;">
-                    Our premium membership experience designed for wine lovers who crave more than exceptional vintages—they seek the stories, the flavours, and unforgettable moments when wine meets its culinary soulmate.
+    <!-- Intro -->
+    <section class="page-section">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="font-size: 1.05rem; line-height: 1.8; color: #666;">
+                    Discover exclusive ways to deepen your connection with Casita Miro. Whether you seek year-round premium access to our finest wines or intimate seasonal encounters with our winemakers, we have something special for you.
                 </p>
+            </div>
+        </div>
+    </section>
 
-                <div class="split-layout">
-                    <div class="split-text">
-                        <h3 style="color: #D32F2F; margin-bottom: 1.5rem;">The Experience</h3>
-                        <p style="color: #666; margin-bottom: 1.5rem;">Become a member of our Vintner's Table and gain exclusive access to our most prized wines, paired with gourmet food experiences crafted to showcase true harmony between wine and cuisine.</p>
-                        
-                        <h3 style="color: #D32F2F; margin-bottom: 1.5rem; margin-top: 2rem;">Member Benefits</h3>
-                        <ul style="margin-left: 1.5rem; color: #666; line-height: 1.8;">
-                            <li style="margin-bottom: 1rem;"><strong>Exclusive magnum</strong> — Limited edition Casita Miro Rosé 2025 (only 100 made) upon signup</li>
-                            <li style="margin-bottom: 1rem;"><strong>Bi-annual wine shipment</strong> — 12-bottle mixed case every six months featuring Waiheke Albariño, Bond Exceptional Harvest, and other selections</li>
-                            <li style="margin-bottom: 1rem;"><strong>Gourmet food hamper</strong> — Curated with bespoke recipes matched to your wines</li>
-                            <li style="margin-bottom: 1rem;"><strong>Premium access</strong> — Limited edition wines including single barrel bottlings</li>
-                            <li style="margin-bottom: 1rem;"><strong>Restaurant discount</strong> — Member's pricing on all dining and cellar door purchases</li>
-                            <li style="margin-bottom: 1rem;"><strong>Free tastings</strong> — Complimentary wine tasting for up to four people when you visit</li>
+    <!-- Specials Grid -->
+    <section class="page-section">
+        <div class="container">
+            <div class="specials-grid">
+
+                <!-- Vintners Table -->
+                <div class="special-card featured">
+                    <div class="special-image">
+                        <img src="../images/wine-bottles.jpg" alt="Vintners Table membership">
+                        <span class="special-badge">Annual Membership</span>
+                    </div>
+                    <div class="special-body">
+                        <span class="special-label">Premium Access</span>
+                        <h3 class="special-title">Vintners Table<br>Wine & Food Club</h3>
+                        <p class="special-description">
+                            Our premium membership for wine collectors who crave exclusive access, limited editions, and curated experiences.
+                        </p>
+
+                        <ul class="special-features">
+                            <li>Exclusive magnum at signup (100 made only)</li>
+                            <li>Bi-annual 12-bottle shipments</li>
+                            <li>Gourmet food hampers with recipes</li>
+                            <li>Limited edition wine access</li>
+                            <li>Restaurant & shop member discounts</li>
+                            <li>Free tastings for up to 4 people</li>
                         </ul>
 
-                        <div style="background: #f9f9f9; padding: 2rem; border-radius: 4px; margin-top: 2rem;">
-                            <p style="margin-bottom: 1rem;"><strong style="color: #D32F2F; font-size: 1.2rem;">$1,500 per year</strong></p>
-                            <p style="color: #666; margin-bottom: 1.5rem;">Annual membership with flexible payment options available</p>
-                            <a href="contact.html" class="btn btn-primary">Learn More</a>
+                        <div class="special-pricing">
+                            <div class="special-price">$1,500</div>
+                            <div class="special-price-note">per year • Flexible payment options</div>
                         </div>
-                    </div>
-                    <div class="split-media">
-                        <img src="../images/wine-bottles.jpg" alt="Vintners Table wine selection" loading="lazy">
+
+                        <a href="contact.html" class="special-cta">Learn More</a>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Winter Wine Masters -->
-        <section class="page-section" style="background: #FAFAF8;">
-            <div class="container">
-                <h2 style="text-align: center; margin-bottom: 3rem;">Winter Wine Masters<br><span style="font-size: 0.7em; font-weight: 400; color: #D32F2F;">Meet the Makers</span></h2>
-                <p style="max-width: 800px; margin: 0 auto 3rem; text-align: center; color: #666; font-size: 1.05rem; line-height: 1.8;">
-                    A seasonal experience exclusive to winter months. Join Casita Miro's winemakers for an intimate, behind-the-scenes exploration of our craft, rare vintages, and the stories that shape our vineyard.
-                </p>
+                <!-- Winter Wine Masters -->
+                <div class="special-card">
+                    <div class="special-image">
+                        <img src="../images/team-photo.jpg" alt="Winter Wine Masters experience">
+                        <span class="special-badge">Winter Only</span>
+                    </div>
+                    <div class="special-body">
+                        <span class="special-label">Seasonal Experience</span>
+                        <h3 class="special-title">Winter Wine<br>Masters</h3>
+                        <p class="special-description">
+                            Meet the winemakers behind Casita Miro's finest vintages. An intimate winter experience for serious wine enthusiasts.
+                        </p>
 
-                <div class="split-layout split-layout--reverse">
-                    <div class="split-text">
-                        <h3 style="color: #D32F2F; margin-bottom: 1.5rem;">The Experience</h3>
-                        <p style="color: #666; margin-bottom: 1.5rem;">Go beyond tasting. Sit down with the people who make Casita Miro wines. This intimate gathering brings winemakers and passionate wine lovers together for honest conversation, rare wine selections, and stories from the vineyard.</p>
-                        
-                        <h3 style="color: #D32F2F; margin-bottom: 1.5rem; margin-top: 2rem;">What's Included</h3>
-                        <ul style="margin-left: 1.5rem; color: #666; line-height: 1.8;">
-                            <li style="margin-bottom: 1rem;"><strong>Direct maker engagement</strong> — Meet the winemakers who crafted your wines</li>
-                            <li style="margin-bottom: 1rem;"><strong>Rare vintages</strong> — Taste limited-edition and single-barrel selections not available elsewhere</li>
-                            <li style="margin-bottom: 1rem;"><strong>Behind-the-scenes stories</strong> — Learn the decisions, challenges, and triumphs of each vintage</li>
-                            <li style="margin-bottom: 1rem;"><strong>Vineyard insights</strong> — Understand Waiheke's terroir and how it shapes our wines</li>
-                            <li style="margin-bottom: 1rem;"><strong>Gourmet pairing</strong> — Spanish-inspired small bites paired with the wines</li>
-                            <li style="margin-bottom: 1rem;"><strong>Intimate setting</strong> — Limited to 12 guests for genuine connection</li>
+                        <ul class="special-features">
+                            <li>Meet the actual winemakers</li>
+                            <li>Rare vintages & single-barrel tastings</li>
+                            <li>Behind-the-scenes vineyard stories</li>
+                            <li>Spanish-inspired gourmet pairings</li>
+                            <li>Intimate setting (12 guests max)</li>
+                            <li>Personal conversation & connection</li>
                         </ul>
 
-                        <div style="background: #f9f9f9; padding: 2rem; border-radius: 4px; margin-top: 2rem;">
-                            <p style="margin-bottom: 0.5rem;"><strong style="color: #D32F2F; font-size: 1.2rem;">$195 per person</strong></p>
-                            <p style="color: #999; font-size: 0.9rem; margin-bottom: 1.5rem;">Winter only (June—August) | Limited to 12 guests per session</p>
-                            <a href="contact.html" class="btn btn-primary">Book Your Session</a>
+                        <div class="special-pricing">
+                            <div class="special-price">$195</div>
+                            <div class="special-price-note">per person • June—August only</div>
                         </div>
-                    </div>
-                    <div class="split-media">
-                        <img src="../images/team-photo.jpg" alt="Winemakers at Casita Miro" loading="lazy">
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Call to Action -->
-        <section class="page-section dark-section">
-            <div class="container text-center">
-                <h2 style="color: white; margin-bottom: 2rem;">Ready to Deepen Your Connection?</h2>
-                <p style="max-width: 700px; margin: 0 auto 2rem; color: #aaa; font-size: 1.05rem;">Whether you're seeking year-round premium access or a winter encounter with our winemakers, we have something special for you.</p>
-                <div>
-                    <a href="contact.html" class="btn btn-primary" style="display: inline-block;">Get in Touch</a>
-                    <p style="margin-top: 1.5rem; color: #666;"><strong>Phone:</strong> (09) 372 7854<br>
-                    <strong>Email:</strong> cmenquiries@outlook.com</p>
+                        <a href="contact.html" class="special-cta">Book Your Session</a>
+                    </div>
                 </div>
+
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="page-section dark-section">
+        <div class="container text-center">
+            <h2 style="color: white; margin-bottom: 2rem;">Have Questions?</h2>
+            <p style="max-width: 700px; margin: 0 auto 2rem; color: #aaa; font-size: 1.05rem;">Our team is here to help you find the perfect experience for your palate and schedule.</p>
+            <div>
+                <a href="contact.html" class="btn btn-primary" style="display: inline-block; margin-right: 1rem;">Get in Touch</a>
+                <p style="margin-top: 1.5rem; color: #666;"><strong>Phone:</strong> (09) 372 7854<br>
+                <strong>Email:</strong> cmenquiries@outlook.com</p>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="footer-content">
