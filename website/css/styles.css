@@ -1250,7 +1250,7 @@ body.menu-open {
 }
 
 .page-section {
-    padding: var(--space-2xl) 2rem;
+    padding: 50px 2rem;
 }
 
 .page-section h2 {
